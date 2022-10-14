@@ -1,0 +1,40 @@
+{
+  "EMAIL_MESSAGES": {
+    "VERIFY_SIGNUP_USER": "Thank you for signing-up with Enoch. Account activation link",
+    "VERIFIED_EMAIL": "Your email address is verified",
+    "PASSKEY_SUBJECT": "EnochApp Passkey Required For Sign Up",
+    "FORGOT_PASSWORD_SUBJECT": "Reset Passsword",
+    "CHANGE_PHONE_NUMBER": "Change phone number request",
+    "CHANGE_PHONE_NUMBER_SUCCESS": "Successfully change phone number"
+  },
+  "URLS": {
+    "VERIFYIMAGE": "https://enochforrdical.s3.us-east-2.amazonaws.com/Email/verify-mail.png",
+    "LOGOIMAGE": "https://enochforrdical.s3.us-east-2.amazonaws.com/Email/logo-big.png",
+    "BULB_PNG": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/Bulb.png",
+    "CONGRATE_PNG": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/congrats.png",
+    "EMAIL_LOGO_PNG": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/email-logo.png",
+    "MAILER_BANNER_PNG": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/Mailer-Banner.png",
+    "SECURITY_PNG": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/security.png",
+    "MEDIA_ICON1": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/sMedia-icon1.png",
+    "MEDIA_ICON2": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/sMedia-icon2.png",
+    "MEDIA_ICON3": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/sMedia-icon3.png",
+    "MEDIA_ICON4": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/sMedia-icon4.png",
+    "MEDIA_ICON5": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/sMedia-icon5.png",
+    "MEDIA_ICON6": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/sMedia-icon6.png",
+    "MEDIA_ICON7": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/sMedia-icon7.png",
+    "TEMPLATE_LOGO1_PNG": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/template-logo1.png",
+    "TEMPLATE_HEADER_PNG": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/templateHeader.png",
+    "UNCREOSS_PNG": "https://enochforrdical.s3.us-east-2.amazonaws.com/images/unCross.png"
+  },
+  "CONSTANT_VARIABLE": {
+    "VERITY_EMAIL_TEMPLATE": "verify-email-templatess",
+    "SUCCESS_EMAIL_TEMPLATE": "email-verified",
+    "CHANGE_PHONE_NUMBER_EMAIL_TEMPLATE": "send-otp-in-mail-for-cp",
+    "SUCCESS_CHANGE_PHONE_NUMBER_EMAIL_TEMPLATE": "email-success-change-number",
+    "PASSWORD_RESET_EMAIL_TEMPLATE": "reset-password",
+    "PASSKEY_TEMPLATE": "passkey-template"
+  },
+  "ERROR_MESSAGE": {
+    "MAIL_TEMPLATE_FAIL": "Mail handlebar template fail "
+  }
+}

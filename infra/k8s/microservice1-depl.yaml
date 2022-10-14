@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microservice1-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: microservice1
+  template:
+    metadata:
+      labels:
+        app: microservice1
+    spec:
+      containers:
+        - name: microservice1
+          image: sssrockgupta/microservice1
+          imagePullPolicy: Never
+          env: 
+            - name: NATS_CONNECTION_URL
+              value: nats://nats-srv:4222
+            - name: PORT
+              value: "3001"
+            - name: JWT_SECRET
+              value: Secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: microservice1-serv
+spec:
+  selector:
+    app: microservice1
+  ports:
+    - name: microservice1
+      protocol: TCP
+      port: 3001
+      targetPort: 3001

@@ -1,0 +1,113 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Category {
+  _id: ID!
+  name: String!
+  image: String!
+  description: String
+  hasSubcategory: Boolean!
+  createdBy: ID!
+  createdAt: DateTime!
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+type Subcategory {
+  _id: ID!
+  name: String!
+  description: String
+  categoryId: ID!
+  createdBy: ID!
+  createdAt: DateTime!
+}
+
+type Collection {
+  _id: ID!
+  name: String!
+  description: String
+  image: String!
+  symbol: String!
+  supply: String!
+  createdAt: DateTime!
+}
+
+type NftProperties {
+  nftType: String!
+  sex: String!
+  race: String!
+}
+
+type Nft {
+  _id: ID!
+  name: String!
+  description: String
+  image: String!
+  collectionId: ID!
+  supply: String!
+  externalLinks: [String!]!
+  tags: [String!]!
+  properties: NftProperties!
+  createdAt: DateTime!
+}
+
+type Query {
+  categories(skip: Int = 0, limit: Int = 10, hasSubcategory: Boolean): [Category!]!
+  count: Float!
+  subCategoriesByCategoryId(categoryId: String!): [Subcategory!]!
+  allSubCategories: [Subcategory!]!
+  countNfts: Float!
+  findAllNfts(skip: Int = 0, limit: Int = 10): [Nft!]!
+}
+
+type Mutation {
+  createCategory(createCategoryInput: CreateCategoryDtoGql!): Category!
+  createSubcategory(createSubcategoryInput: CreateSubcategoryDtoGql!): Subcategory!
+  createCollection(createCollectionInput: CreateCollectionDtoGql!): Collection!
+  createNFT(createNftInput: CreateNftDtoGql!): Nft!
+}
+
+input CreateCategoryDtoGql {
+  name: String!
+  image: String!
+  description: String
+  hasSubcategory: Boolean = true
+}
+
+input CreateSubcategoryDtoGql {
+  name: String!
+  categoryId: String!
+  description: String
+}
+
+input CreateCollectionDtoGql {
+  name: String!
+  image: String!
+  description: String
+  symbol: String!
+  supply: String!
+  categoryId: String
+  subcategoryId: String
+  isCategory: Boolean!
+}
+
+input CreateNftDtoGql {
+  name: String!
+  image: String!
+  description: String
+  collectionId: ID!
+  supply: String!
+  externalLinks: [String!]!
+  tags: [String!]!
+  properties: NftPropertiesDtoGql!
+}
+
+input NftPropertiesDtoGql {
+  nftType: String!
+  sex: String!
+  race: String!
+}

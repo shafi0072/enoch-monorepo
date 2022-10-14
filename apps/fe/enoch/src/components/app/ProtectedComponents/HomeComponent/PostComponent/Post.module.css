@@ -1,0 +1,517 @@
+
+/* post */
+.post{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: -4px 8px 24px rgb(44 63 88 / 2%);
+    border-radius: 4px;
+    padding: 16px 0;
+}
+
+
+/* post header */
+.postHeader{
+    padding: 10px 24px;
+    display: flex;
+    gap: 10px;
+}
+
+.postHeaderImg{
+    border-radius: 50%;
+    max-height: 48px;
+    max-width: 48px;
+    width: 100%;
+    background-color: red;
+    overflow: hidden;
+}
+
+.postHeaderName{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.postHeaderDesc{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8a9099;
+    margin-bottom: 2px;
+}
+
+.postHeaderDate{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 0px;
+    display: flex;
+    align-items: center;
+    color: #8a9099;
+    margin-bottom: 0px;
+    gap: 3px;
+}
+
+.postHeaderDotIcon{
+    background-color: transparent;
+    border: none;
+    height: min-content;
+    color: #8a9099;
+    position: relative;
+    cursor: pointer;
+}
+
+/* post content */
+.postContent{
+    background-color: #fff;
+}
+
+.postContentDescription{
+    padding: 10px 24px 20px;
+    font-size: 14px;
+    font-family: Poppins;
+}
+
+
+.postContentCaption{
+    padding-left: 24px;
+    padding-bottom: 5px;
+}
+
+
+
+.postContentVideo{
+    height: auto;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(255,255,255,1);
+    width: 100%;
+}
+
+.postContentImage{
+    width: auto;
+    overflow: hidden;
+    background-color: rgba(0,0,0,1);
+    max-height: 400px;
+    height: 400px;
+}
+
+.postContentImage > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.postContentImage > img{
+    margin: 0 auto;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+/* post opinion data */
+.postOpinionData{
+    padding: 10px 0px;
+    border-top: 1px solid rgb(202, 201, 201);
+    border-bottom: 1px solid rgb(202, 201, 201);
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.postOpinionDataBtn{
+    display: flex;
+    font-family: Poppins;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    gap: 5px;
+    padding: 5px 6px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* post dropdown */
+.postDropdown{
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    border: 1px solid #d4d8dd;
+    padding: 5px 0;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.postDropdownButton{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+    width: max-content;
+    padding: 10px 20px 10px 24px;
+    width: 100%;
+    white-space: nowrap;
+    font-family: Poppins;
+}
+
+.postDropdownButton:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.postDropdownButtonText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.postDropdownButtonLabel{
+    font-weight: 500;
+    font-family: Poppins;
+}
+
+.postDropdownButtonDescp{
+    font-size: 12px;
+}
+/* post opinion */
+
+.postOpinion{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 24px 0 24px;
+    position: relative;
+}
+
+
+/* post button */
+.postBtn{
+    display: flex;
+    font-family: Poppins;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    gap: 5px;
+    padding: 5px 6px;
+    font-size: 14px;
+    color: #8a9099;
+}
+
+.postBtn:hover{
+    /* background-color: red; */
+    background-color: rgb(237, 237, 237);
+}
+
+
+/* post comments */
+.postCommentsContainer{
+    padding: 20px 24px 10px 24px;
+    width: 100%;
+}
+
+
+/* post input */
+.inputContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.inputImg{
+    border-radius: 50%;
+    max-height: 48px;
+    max-width: 48px;
+    width: 100%;
+    background-color: red;
+    overflow: hidden;
+}
+
+.inputBox{
+    flex-grow: 1;
+    border: 2px solid rgb(218, 215, 215);
+    border-radius: 14px;
+    padding: 8px 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.inputBox > input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+/* comment */
+.commentListContainer > h3{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+/* post comments */
+.postCommentsContainer{
+    padding: 20px 24px 10px 24px;
+}
+
+
+/* post input */
+.inputContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.inputImg{
+    border-radius: 50%;
+    max-height: 48px;
+    max-width: 48px;
+    width: 100%;
+    background-color: red;
+    overflow: hidden;
+}
+
+.inputBox{
+    flex-grow: 1;
+    border: 2px solid rgb(218, 215, 215);
+    border-radius: 18px;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.inputBox > input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+/* comment */
+.commentListContainer{
+    width: 100%;
+}
+.commentListContainer > h3{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.commentContainer{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+}
+
+.commentImg{
+    border-radius: 50%;
+    max-height: 40px;
+    max-width: 40px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.commentImg > img{
+    height: 100%;
+    width: 100%;
+}
+
+.commentData{
+    background-color: rgb(234, 234, 234);
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 0 8px 8px 8px;
+}
+
+.commentDataHead{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Poppins;
+    padding: 0px;
+    margin: 0px;
+}
+
+.commentDataFollowers{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.commentDatacomment{
+    font-size: 14px;
+    font-family: Poppins;
+    margin: 0;
+}
+
+.commentDataBtns{
+    display: flex;
+    gap: 5px;
+    padding-top: 5px;
+}
+
+.commentDataLikeBtn{
+    background-color: transparent;
+    border: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.commentDataReplyBtn{
+    background-color: transparent;
+    border: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: blue;
+}
+
+
+.emojiPicker{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+
+.likeWrapper > div {
+    display:none;
+   position: absolute;
+    top: -35px;
+    z-index: 10000;
+    background: #fff;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    width: 220px;
+    border-radius: 8px;
+}
+.likeWrapper:hover > div {
+    display: block;
+}
+
+.iconBtn{
+    padding: 1px;
+    border-radius: 100px;
+    background-color: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconBtnSm{
+    padding: 3px;
+    border-radius: 100px;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 2px 4px;
+}
+
+.commentLikes {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    display: flex;
+    align-items: center;
+    background: rgb(214, 214, 214);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.commentLikes .count {
+    margin: 0;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px){
+
+    .emojiPicker{
+        position: absolute;
+        top: 30px;
+        right: -65px;
+    }
+    .postLabel{
+        display: none;
+    }
+
+    .postDropdown{
+        right: -5px;
+    }
+
+    .postDropdownButtonLabel{
+        font-size: 14px;
+    }
+
+    .postDropdownButtonDescp{
+        font-size: 10px;
+    }
+
+    .postContentImage{
+        height: 300px;
+    }
+
+    .postCommentsContainer{
+        padding: 10px 20px;
+    }
+
+    .commentContainer{
+        padding: 10px 5px;
+    }
+
+
+    .commentImg{
+        min-height: 30px;
+        min-width: 30px;
+    }
+    .commentDatacomment{
+        font-size: 12px;
+        font-family: Poppins;
+        margin: 0;
+    }
+
+
+    .inputImg{
+        max-width: 38px;
+        max-height: 38px;
+    }
+
+    .inputBox{
+        padding: 5px 10px;
+    }
+
+    .inputBox > input{
+        font-size: 12px;
+    }
+}

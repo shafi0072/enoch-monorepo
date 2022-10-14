@@ -1,0 +1,140 @@
+.create_profile {
+  min-height: 100vh;
+  padding: 30px 40px;
+}
+
+.create_profile > div > h2 {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 69px;
+  color: #1e1f2d;
+}
+
+.create_profile_choose {
+  padding: 40px;
+}
+
+
+.create_profile_options {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+
+.create_profile_pageswitch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* choose avatar image */
+.choose_avatar {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.choose_avatar_main_image {
+  flex: 1;
+  position: relative;
+}
+
+.choose_avatar_images {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.choose_avatar_default_img {
+  position: absolute;
+  top: 17%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 53%;
+  height: 36%;
+}
+
+.choose_avatar_title {
+  position: absolute;
+  bottom: 31%;
+  z-index: 9;
+  text-align: center;
+  width: 100%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 57px;
+  text-align: center;
+  color: #341d00;
+}
+
+/* choose background image */
+
+.choose__bg {
+  padding: 30px 0;
+}
+.choose__bg__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.choose__bg__grid > img:hover {
+  cursor: pointer;
+  outline: 12px solid #22cce2;
+  outline-offset: -12px;
+}
+
+.choose_avatar_images > img:hover {
+  cursor: pointer;
+  outline: 12px solid #22cce2;
+  outline-offset: -12px;
+}
+
+
+/* breakpoints */
+
+@media only screen and (max-width: 767px) {
+  .create_profile {
+    padding: 30px 20px;
+  }
+
+  .create_profile_choose {
+    padding: 10px;
+  }
+
+  .create_profile_pageswitch {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .create_profile_options {
+    display: grid;
+    width: 100%;
+  }
+
+  .choose_avatar {
+    flex-direction: column;
+  }
+
+  .choose_avatar_title {
+    font-size: 25px;
+    bottom: 30%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .create_profile_options_button {
+    font-size: 13px;
+    height: 48px;
+  }
+}

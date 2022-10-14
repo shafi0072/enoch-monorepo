@@ -1,0 +1,81 @@
+.manage_shop_btns{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.manage_shop_btn{
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(88, 44, 229,0.8);
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    padding: 0 28px;
+}
+
+.manage_shop_btn_text{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    z-index: 999;
+}
+
+.manage_shop_btn_text > span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.manage_shop_btn_text > h3{
+    font-family: Poppins;
+    font-size: 24px;
+}
+
+/* create coupon  */
+.addBtn{
+    border-radius: 200px;
+    border: 1px solid #D4D8DD;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addBtn > span{
+    background-color: #7521E2;
+    border-radius: 100px;
+    padding: 2px;
+}
+
+
+@media (max-width: 768px) {
+    .manage_shop_btns{
+        display: block;
+    }
+
+    .manage_shop_btn{
+        width: 100%;
+        margin: 10px 0;
+        height: 130px;
+    }
+
+    .manage_shop_btn_text > h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .manage_shop_btns{
+        grid-template-columns: repeat(2, 1fr)
+    }
+}

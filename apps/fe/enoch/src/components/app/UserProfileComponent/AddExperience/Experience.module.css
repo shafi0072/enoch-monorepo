@@ -1,0 +1,29 @@
+.label{
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.noRecord{
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.experienceHeader{
+    font-family: "Poppins";
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.experiencePara{
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+.experienceImage{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(230, 178, 230);
+    border-radius: 100px;
+}

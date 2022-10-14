@@ -1,0 +1,179 @@
+version: "3.9"
+services:
+  auth-service:
+    env_file:
+      - ./.env.local
+    build:
+      context: apps/be/auth-service
+      dockerfile: Dockerfile
+    volumes:
+      - ./apps/be/auth-service/src/:/app/src
+      - ./apps/be/auth-service/package.json/:/app/package.json
+      - /app/node_modules
+    ports:
+      - "3001:3001"
+    environment:
+      PORT: 3001
+      PREFIX: auth
+      NODE_ENV: development
+      MONGO_CONNECTION_URI: "${MONGO_CONNECTION_URI}/auth"
+    depends_on:
+      - nats-dev
+      - mongo
+      - redis-graphql
+    networks:
+      - app-network
+
+  email-service:
+    env_file:
+      - ./.env.local
+    build:
+      context: apps/be/email-service
+      dockerfile: Dockerfile
+    volumes:
+      - ./apps/be/email-service/src/:/app/src
+      - /app/node_modules
+    ports:
+      - "3002:3002"
+    environment:
+      PORT: 3002
+      PREFIX: email
+      NODE_ENV: development
+      MONGO_CONNECTION_URI: "${MONGO_CONNECTION_URI}/email"
+
+    depends_on:
+      - nats-dev
+      - mongo
+    networks:
+      - app-network
+
+  file-service:
+    env_file:
+      - ./.env.local
+    build:
+      context: apps/be/file-service
+      dockerfile: Dockerfile
+    volumes:
+      - ./apps/be/file-service/src/:/app/src
+      - /app/node_modules
+      - ./apps/be/file-service/public:/app/public
+    ports:
+      - "3003:3003"
+    environment:
+      PORT: 3003
+      PREFIX: file
+      NODE_ENV: development
+      NATS_CONNECTION_URL: nats://nats-dev:4222
+      MONGO_CONNECTION_URI: "${MONGO_CONNECTION_URI}/file"
+      JWT_SECRET: secret
+      SALT_TO_ROUNDS: ${SALT_TO_ROUNDS}
+      FILE_URL: http://localhost:3003/file/images
+    depends_on:
+      - nats-dev
+      - mongo
+    networks:
+      - app-network
+
+  sms-service:
+    env_file:
+      - ./.env.local
+    build:
+      context: apps/be/sms-service
+      dockerfile: Dockerfile
+    volumes:
+      - ./apps/be/sms-service/src/:/app/src
+      - /app/node_modules
+    ports:
+      - "3004:3004"
+    environment:
+      PORT: 3004
+      PREFIX: sms
+      NODE_ENV: development
+      MONGO_CONNECTION_URI: "${MONGO_CONNECTION_URI}/sms"
+
+    depends_on:
+      - nats-dev
+      - mongo
+    networks:
+      - app-network
+
+  enoch:
+    env_file:
+      - ./.env.local
+    build:
+      context: apps/fe/enoch
+      dockerfile: Dockerfile
+    volumes:
+      - ./apps/fe/enoch/:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    depends_on:
+      - auth-service
+
+    environment:
+      PORT: 3000
+      NODE_ENV: development
+      NATS_CONNECTION_URL: nats://nats-dev:4222
+      JWT_SECRET: secret
+    networks:
+      - app-network
+  nats-dev:
+    ports:
+      - "4222:4222"
+    image: nats-streaming:0.17.0
+    networks:
+      - app-network
+
+  redis-graphql:
+    image: redis:latest
+    ports: 
+      - "6379:6379"
+    networks:
+      - app-network
+    volumes:
+      - ./data/redis:/data
+
+  mongo:
+    image: mongo
+    #environment:
+    #MONGO_INITDB_ROOT_USERNAME: root
+    #MONGO_INITDB_ROOT_PASSWORD: password
+    networks:
+      - app-network
+    volumes:
+      - ./data/db:/data/db
+    ports:
+      - 27017:27017
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: password
+      ME_CONFIG_MONGODB_URL: mongodb://mongo:27017
+    networks:
+      - app-network
+
+  nginx:
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/config/nginx.conf:/etc/nginx/conf.d/node.template
+      - ./nginx/html:/etc/nginx//html
+    command: 'bash -c "cat /etc/nginx/conf.d/node.template > /etc/nginx/conf.d/default.conf && nginx -g ''daemon off;''"'
+    depends_on:
+      - auth-service
+      - email-service
+      - file-service
+      - enoch
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

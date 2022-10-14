@@ -1,0 +1,3756 @@
+/* PAy wallet Css */
+
+.heading_pay_wallet h3 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 0px;
+
+}
+
+.heading_pay_wallet {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #D4D8DD;
+  padding-bottom: 24px;
+}
+
+.avex_paywallet1 {
+
+  width: 64%;
+  padding: 0 10px;
+}
+
+.avex_paywallet_right {
+
+  width: 36%;
+  padding: 0 10px;
+}
+
+.avex_processing_right {
+
+  width: 33%;
+  padding: 0 10px;
+}
+
+.bdy_pay_wllet {
+  margin: 0 -5px;
+}
+
+.bdy_pay_wllet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bdy_pay_wllet {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  PADDING-TOP: 40PX;
+}
+
+.inner_area_wallet {
+  background: #FFFFFF;
+  border: 1px solid #EEF5F8;
+  box-shadow: 0px 4px 22px rgba(227, 237, 240, 0.3);
+  padding: 30px;
+
+
+}
+
+.inner_area_wallet2 {
+  background: #FFFFFF;
+  border: 1px solid #EEF5F8;
+  box-shadow: 0px 4px 22px rgba(227, 237, 240, 0.3);
+  padding: 24px;
+
+
+}
+
+.inner_area_wallet_right {
+  background: #FFFFFF;
+  border: 1px solid #EEF5F8;
+  box-shadow: 0px 4px 22px rgba(227, 237, 240, 0.3);
+  padding: 16px;
+  text-align: center;
+
+}
+
+.avx_headind_area h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.avx_headind_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.total_pay_wallet {
+  background: #F3F6F8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+
+span.tatl_avg {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+span.figure_avg {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.snd_passcde_sec {
+  margin-top: 24px;
+}
+
+.passcde_descrip p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  text-align: left;
+}
+
+.mbl_verifications_avx {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.dumy_phn {
+
+  margin-right: 11px;
+
+}
+
+.star_secret_cde {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.send_psscde_btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.send_psscde_btn button {
+  max-width: 568px;
+  width: 100%;
+  height: 52px;
+  background: #7521E2;
+  border-radius: 34px;
+  border: none;
+  outline: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+
+
+}
+
+.cncle_vrify_txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.cncle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #3F434A;
+}
+
+a.vrify_txt {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #3F434A;
+}
+
+.Decentralized {
+  margin-top: 28px;
+}
+
+a.Decentralized {
+  margin: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #7521E2;
+}
+
+.avx_pyment_details h3 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 0px;
+
+}
+
+.exactly_pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 21px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #D4D8DD;
+
+}
+
+span.pay_txt {
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 180%;
+  color: #3F434A;
+}
+
+span.figure_amount {
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 180%;
+  text-align: right;
+  color: #2BBD54;
+}
+
+.sub_total_details_pay {
+  padding-top: 12px;
+  border-bottom: 1px solid #D4D8DD;
+}
+
+.sub_total_details_pay ul li {
+  margin-bottom: 10px;
+}
+
+.puchsing_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.puchsing_details span {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 180%;
+  color: #000000;
+
+}
+
+span.total_pay_amount {
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 180%;
+  text-align: right;
+  color: #000000;
+}
+
+.curncy_title h5 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  color: #3F434A;
+  margin-bottom: 0px;
+
+
+}
+
+.curncy_title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.slect_currency_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 17px;
+}
+
+.dlr_btc {
+
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 180%;
+  color: #3F434A;
+
+
+}
+
+.prchse_prce_rte span {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 180%;
+  text-align: right;
+  color: #3F434A;
+
+
+}
+
+.puchsing_details_avx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slect_currency {
+  border-bottom: 1px solid #D4D8DD;
+  padding-bottom: 19px;
+  padding-top: 16px;
+}
+
+.six-digit_passcode p {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+
+
+}
+
+.inpt_heading h6 {
+
+  padding-top: 12px;
+  padding-bottom: 16px;
+
+}
+
+
+.inpt_heading h6 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+  margin-bottom: 0px;
+
+
+}
+
+.plce_code {
+  width: 100%;
+  border: 1px solid;
+  padding: 13px 16px;
+}
+
+.plce_code input {
+  border: none;
+  outline: none;
+  width: 100%;
+
+}
+
+
+.resend_code {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 14px;
+
+}
+
+a.resnd_cde {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7521E2;
+}
+
+.entr_digit_main {
+
+  display: none;
+
+}
+
+.six-digit_passcode {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 14px;
+}
+
+.notification_snd_passcode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #b5edc5;
+  /* opacity: 0.1; */
+  border-radius: 4px;
+  padding: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.notification_snd_passcode h6 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.code_alrt {
+
+  margin-right: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passcode_notifications {
+
+  display: none;
+
+}
+
+/* Processing Loader Css */
+.loader {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  border: 4px solid #2BBD54;
+  border-top-color: #D4D8DD;
+  box-sizing: border-box;
+  background: transparent;
+  animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+.processing_title {
+
+  padding-top: 30px;
+
+}
+
+.processing_title h4 {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000000;
+
+}
+
+.Processing_loader_main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 768px;
+  
+}
+
+.mamage_media_body_content_processing_avex {
+  background: #f9f9f9;
+  padding: 25px 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 768px;
+  display: none;
+  
+}
+
+.mamage_media_body_content_payment_sucess {
+  background: white;
+  padding: 25px 40px;
+  border-radius: 8px;
+display:none;	
+}
+
+.mamage_media_body_content_payment_sucess2 {
+  background: white;
+  padding: 25px 40px;
+  border-radius: 8px;
+  display: none;
+
+
+}
+
+
+.bdy_payment_sucessfully {
+  margin: 0 -5px;
+}
+
+.bdy_payment_sucessfully:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bdy_payment_sucessfully {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-top: 40PX;
+}
+
+.avex_payment_sucessfully {
+
+  width: 67%;
+  padding: 0 10px;
+  margin-bottom: 150px;
+}
+
+.inner_area_payment_sucessfully {
+  background: #FFFFFF;
+  border: 1px solid #EEF5F8;
+  box-shadow: 0px 4px 22px rgba(227, 237, 240, 0.3);
+  padding: 30px;
+  position: relative;
+  padding: 100px;
+  border-radius: 16px;
+
+
+}
+
+.fully_scuess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+span.sucs_tick {
+  position: absolute;
+
+}
+
+.sucs_below_title {
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 1px dashed #D4D8DD;
+  padding-bottom: 30px;
+}
+
+.sucs_below_title h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #2BBD54;
+  margin-bottom: 0px;
+
+}
+
+.sucs_below_title p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: #89989F;
+  margin-bottom: 0px;
+  padding-top: 10px;
+
+
+}
+
+.dwnload_invce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.dwnload_invce span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #7521E2;
+}
+
+.orange_box_inner {
+  background: linear-gradient(259.46deg, #FB9536 -34.51%, #F43B2F 102.95%);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.white_gft {
+  background: #f65831;
+  width: 102px;
+  height: 102px;
+  border-radius: 64%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.invte_frinds {
+  margin-left: 23px;
+}
+
+.invte_frinds h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFF2F2;
+  margin-bottom: 0px;
+
+}
+
+.invte_frinds p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #FFF2F2;
+  margin-bottom: 0px;
+
+
+}
+
+.ornge_box {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  height: auto;
+  max-width: 540px;
+  width: 100%;
+  margin: auto;
+}
+
+span.go_icon {
+  position: absolute;
+  right: 13px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.invite_popup {
+  position: absolute;
+  max-width: 406px;
+  width: 100%;
+  min-height: 211px;
+  bottom: 159px;
+  right: 35px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 14px rgb(169 169 169 / 25%);
+  border-radius: 8px;
+  padding: 24px;
+  display: none;
+}
+
+.social_icons ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social_icons ul li {
+
+
+  margin-right: 17px;
+
+}
+
+.shre_friends_title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 18px;
+}
+
+.shre_friends_title h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+
+}
+
+.crs_pop {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.cpy_link {
+  background: #FFFFFF;
+  border: 1px solid #D4D8DD;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 331px;
+  width: 100%;
+  height: 40px;
+}
+
+.cpy_link form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0px 16px 10px;
+}
+
+.cpy_link input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.cpy_link button {
+  border: none;
+  outline: none;
+  background: #7521E2;
+  border-radius: 40px;
+  max-width: 98px;
+  width: 100%;
+  height: 40px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+.social_icons {
+
+  padding-bottom: 32px;
+}
+
+.inner_processing_wallet {
+  background: #FFFFFF;
+  border: 1px solid #EEF5F8;
+  box-shadow: 0px 4px 22px rgba(227, 237, 240, 0.3);
+  padding: 24px;
+  border-radius: 16px;
+
+}
+
+.img_details {
+  background: #D7DCE1;
+  border-radius: 8px;
+  width: 107px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.cart_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+span.itm_cde {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 170.23%;
+  color: #AAAAAA;
+}
+
+span.item_nme {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 170.23%;
+  display: flex;
+  align-items: center;
+  color: #3F434A;
+}
+
+span.itm_sub_info {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 170.23%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+span.itm_total {
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.sub_total_crt_items {
+  padding-top: 12px;
+  border-top: 1px solid #D4D8DD;
+}
+
+.sub_total_crt_items ul li {
+  margin-bottom: 10px;
+}
+
+.crt_title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #D4D8DD;
+}
+
+.crt_title h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.inner_meta_msk_sec2 {
+  
+  padding: 40px 0px;
+  
+
+}
+
+.terms_and_conditions_bdy {
+
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.view_trms_and_cnditions {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+
+}
+
+.view_trms_and_cnditions p {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #7521E2;
+
+}
+
+.sign_message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.sign_message button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: #7521E2;
+  border-radius: 60px;
+  max-width: 180px;
+  width: 100%;
+  height: 40px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: white;
+  padding: 8px 30px;
+}
+
+.chkbox_terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 21px;
+  padding-bottom: 24px;
+}
+
+.agree-terms {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 5px;
+  text-align: center;
+  color: #3F434A;
+  margin-bottom: 0px;
+}
+.render-check-fix{
+  padding-left: 25px;
+}
+.chkbox_terms input {
+
+  max-width: 16px;
+  height: 16px;
+  cursor: pointer;
+  width: 100%;
+
+}
+.pop-terms{
+  justify-content: center;
+  margin-top: 21px;
+  margin-bottom: 24px;
+}
+.trms-put-on {
+  width: 160px;
+  height: 40px;
+ pointer-events: none;
+  outline: none;
+  background: transparent;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  border: none;
+  background: #C6C9CC;
+  border-radius: 60px;
+}
+
+.trms-change {
+  background: #7521E2;
+  color: #FFFFFF;
+  border: none;
+  pointer-events: all;
+}
+
+
+
+
+
+
+
+/* Responsive */
+
+
+
+
+@media screen and (max-width:600px) {
+
+  .inner_area_payment_sucessfully {
+
+    padding: 0px;
+  }
+
+  .invite_popup {
+
+    right: 0px;
+
+  }
+
+  .mamage_media_body_content_payment_sucess {
+
+    padding: 25px 20px;
+
+  }
+
+  .dwnload_invce {
+
+    padding-bottom: 30px;
+  }
+
+  .green_pymnt_sucess {
+    padding: 30px 12px;
+  }
+
+  .invte_frinds {
+    margin-left: 0px;
+  }
+
+  .mamage_media_body_content_avex_walt {
+
+
+    padding-right: 20px;
+    padding-left: 20px;
+
+
+  }
+
+
+}
+
+@media screen and (max-width:480px) {
+
+  .total_pay_wallet {
+    flex-direction: column;
+  }
+
+  .total_pay_wallet {
+
+    padding: 13px;
+  }
+
+  .puchsing_details span {
+
+    font-size: 16px;
+
+  }
+
+  .prchse_prce_rte span {
+
+    font-size: 17px;
+
+  }
+
+}
+
+.mamage_media_body_content_avex_walt {
+
+  background: #f9f9f9;
+  padding: 25px 20px;
+  border-radius: 8px;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+/* tooltip toggle css */
+
+
+
+
+
+
+.warning_title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 6px;
+}
+
+.warning_title h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #F03B31;
+  margin-bottom: 0px;
+}
+
+.descriptions.toltip_inner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.descriptions.toltip_inner p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.multi_title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 7px;
+}
+
+.multi_title h6 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 170.23%;
+  margin-bottom: 0px;
+  color: #000000;
+}
+
+.multi_descrip {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  padding-top: 3px;
+}
+
+.multi_descrip p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.custm_title {
+
+  padding-top: 5px;
+
+}
+
+.custm_title h4 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 170.23%;
+  margin-bottom: 0px;
+  color: #000000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.custm_title p {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #000000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.cnfrim_totip_btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.cnfrim_totip_btn button {
+  border: none;
+  outline: none;
+  max-width: 104px;
+  width: 100%;
+  height: 32px;
+  padding: 4px 8px;
+  background: #F03B31;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: white;
+
+}
+
+.timer_alert_nitifications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFF5F5;
+  border-radius: 9px;
+  padding: 8px 22px;
+  margin-top: 24px;
+
+}
+
+.tmr_ldr {
+  margin-right: 16px;
+}
+
+.alrt_txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alrt_txt p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 130%;
+  color: #F03B31;
+}
+
+.red_nitification_alrt {
+
+  display: none;
+
+}
+
+.on_click_blue {
+  background: linear-gradient(180deg, #5B47D5 0%, #4B32E2 100%);
+  box-shadow: 0px 4px 22px rgb(227 237 240 / 30%);
+  max-width: 320px;
+  min-height: 435px;
+  border-radius: 16px;
+  padding: 24px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.pay_icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pay_title_bld {
+  padding-top: 12px;
+  border-bottom: 1px solid #F8F8F8;
+  padding-bottom: 16px;
+}
+
+.pay_title_bld h3 {
+
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+
+}
+
+.pay_title_bld p {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+
+}
+
+/* .pay_title_bld span {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+} */
+
+/* .pay_title_bld span input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+} */
+
+.plce_order_btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px 0px;
+}
+
+
+
+
+button.plce_green_btn {
+  width: 100%;
+  height: 48px;
+  border: none;
+  outline: none;
+  background: #2BBD54;
+  border-radius: 34px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+
+}
+
+button.discard_btn {
+  width: 100%;
+  height: 48px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 34px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.trms_cndition_pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.trms_cndition_pay p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+
+
+
+
+
+/* .base-timer {
+  position: relative;
+  width: 68px;
+  height: 68px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 1.37838px;
+  stroke: #e0716b;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 1.37838px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: red;
+}
+
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+  position: absolute;
+  top: 17px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18.3784px;
+}
+
+div#app {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 22px;
+  background: #FFF5F5;
+  border-radius: 9px;
+  margin-top: 16px;
+}
+
+.base-timer__label2 {
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 180%;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  top: 39px;
+  right: 17px;
+} */
+
+
+.crd_crd_active .uscd_txt h6,
+.crd_crd_active .uscd_txt span,
+.crd_crd_active .dollar_usdc span,
+.crd_crd_active .dollar_usdc h6 {
+
+  color: white;
+
+}
+
+.crd_crd_active .uscd_txt h6,
+.crd_crd_active .uscd_txt span,
+.crd_crd_active .dollar_usdc span,
+.crd_crd_active .dollar_usdc h6 {
+
+  color: #4B5861;
+}
+
+.crd_crd_active.active .uscd_txt h6,
+.crd_crd_active.active .uscd_txt span,
+.crd_crd_active.active .dollar_usdc span,
+.crd_crd_active.active .dollar_usdc h6 {
+
+  color: white;
+}
+
+
+
+.clr_icon{
+display: none;
+}
+
+.frst_crd.active {
+
+  background: linear-gradient(51.84deg, #0F3AA9 4.12%, #2775CA 97.58%);
+  border: none;
+
+
+}
+.frst_crd.active .hid-icon{
+  display: none;
+  }
+.frst_crd.active .clr_icon{
+display: block;
+}
+.frst_crd.active .usdc_icon{
+  background-color: rgba(29,87,158,255);
+}
+
+
+
+.frst_crd2.active {
+
+  background: linear-gradient(51.84deg, #EF7301 4.12%, #FFAF14 97.58%);
+  border: none;
+}
+.frst_crd2.active .hid-icon{
+  display: none;
+  }
+.frst_crd2.active .clr_icon{
+display: block;
+}
+.frst_crd2.active .usdc_icon{
+  background-color: rgba(29,87,158,255);
+}
+.frst_crd2.active .usdc_icon{
+  background-color: rgba(202,131,14,255);
+}
+
+
+
+.frst_crd3.active {
+
+  background: linear-gradient(51.84deg, #25A52A 4.12%, #45C5A2 97.58%);
+  border: none;
+
+}
+.frst_crd3.active .hid-icon{
+  display: none;
+  }
+.frst_crd3.active .clr_icon{
+display: block;
+}
+
+.frst_crd3.active .usdc_icon{
+  background-color: #339972;
+}
+
+
+
+.frst_crd4.active {
+
+  background: linear-gradient(51.84deg, #141414 4.12%, #565656 97.58%);
+  border: none;
+
+
+}
+.frst_crd4.active .hid-icon{
+  display: none;
+  }
+.frst_crd4.active .clr_icon{
+display: block;
+}
+
+
+
+.frst_crd5.active {
+
+  background: linear-gradient(51.84deg, #CB3100 4.12%, #F48636 97.58%);
+  border: none;
+
+
+}
+.frst_crd5.active .hid-icon{
+  display: none;
+  }
+.frst_crd5.active .clr_icon{
+display: block;
+}
+
+.frst_crd5.active .usdc_icon{
+  background-color: #BE6125;
+}
+
+
+.frst_crd6.active {
+
+  background: linear-gradient(51.84deg, #C41414 4.12%, #EC2222 97.58%);
+  border: none;
+
+
+}
+.frst_crd6.active .hid-icon{
+  display: none;
+  }
+.frst_crd6.active .clr_icon{
+display: block;
+}
+
+.frst_crd6.active .usdc_icon{
+  background-color: #B81B1B;
+}
+
+
+.frst_crd7.active {
+
+  background: linear-gradient(47.05deg, #3500CB 3.81%, #DA36F4 122.09%);
+  border: none;
+
+}
+.frst_crd7.active .hid-icon{
+  display: none;
+  }
+.frst_crd7.active .clr_icon{
+display: block;
+}
+
+.frst_crd7.active .usdc_icon{
+  background-color: #821EB9;
+}
+
+li.slect_coin_svg {
+  
+  border: 1px solid #8F9DC0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frst_crd8{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frst_crd8:hover{
+  background: #7521E2;
+}
+.frst_crd8:hover .hid-icon{
+  display: none;
+  }
+.frst_crd8:hover .clr_icon{
+display: block;
+}
+
+
+
+
+/* On hover show alert pop up */
+
+.dropdown_avex_nft {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content_avexnft {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 317px;
+  filter: drop-shadow(0px 8px 24px rgba(44, 63, 88, 0.1));
+  z-index: 1;
+  padding: 24px;
+  border-radius: 12px;
+  left: -116px;
+  
+}
+
+.dropdown-content_avexnft a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown_avex_nft:hover .dropdown-content_avexnft {display: block;}
+
+.dropdown_avex_nft:hover .dropbtn {background-color: transparent;}
+
+
+.avx_hide {
+
+display: none;
+
+}
+
+.avex_height_new {
+
+min-height: 1780px;
+
+}
+
+
+
+
+/********Ahtis Css File Start************/
+
+/* Ahtis Css External Wallet */
+
+.mamage_media_body_content_external_wallet {
+  background: #f9f9f9;
+  padding: 25px 20px;
+  border-radius: 8px;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  height: 1200px;
+}
+
+
+
+.filters-content_wallet {
+  margin: auto;
+  padding: 8px;
+  background: #F7F6F9;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 0.5rem;
+  max-width: 400px;
+  width: 100%;
+  height: 63px;
+}
+
+.filters__button {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 9px;
+  transition: 0.3s;
+  border-radius: 0.5rem;
+  max-width: 188px;
+  height: 48px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170.23%;
+  text-align: center;
+  color: #8E8E9B;
+  background: white;
+}
+
+/* .filters_wallet_avec button:hover {
+
+  background-color: #fff;
+
+} */
+
+.projects {}
+
+.skills {}
+
+/* Hide*/
+.filters_wallet_avec [data-content] {
+  display: none;
+}
+
+[data-content].is-active[data-content] {
+  display: grid;
+}
+
+.is-active {
+
+  color: #7521E2;
+}
+
+
+
+/* wallet cards css */
+
+.column_wallet_external {
+
+  width: 66%;
+  padding: 0 10px;
+  margin-bottom: 200px;
+}
+
+.column_wallet_external_right {
+
+  width: 34%;
+  padding: 0 10px;
+}
+
+
+.external_wallet_inner_sec {
+  margin: 0 -5px;
+}
+
+.external_wallet_inner_sec:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.external_wallet_inner_sec {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 24px;
+}
+
+
+.inner_bdy_external {
+  background: #FFFFFF;
+  border: 1px solid #EEF5F8;
+  box-shadow: 0px 4px 22px rgba(236, 236, 236, 0.3);
+  padding: 16px;
+  border-radius: 16px;
+  min-height: 386px;
+}
+
+
+
+.external-avx-subs {
+  overflow: hidden;
+  display: flex;
+  border-bottom: 1px solid #D4D8DD;
+}
+
+.external-avx-subs button.active {
+  border-bottom: 3px solid #7521E2;
+  color: #7521E2;
+}
+
+.external-avx-subs button {
+  height: 80px;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 100%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #8A9099;
+}
+
+.innr_bdy_detact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 386px;
+}
+
+.no_wallet_head h4 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 170.23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+
+}
+
+.no_wallet_head p {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 170.23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3F434A;
+
+}
+
+.cnnect_wallt_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.cnnect_wallt_btn button {
+  background: #7521E2;
+  border-radius: 34px;
+  max-width: 216px;
+  width: 100%;
+  height: 48px;
+  border: none;
+  outline: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+/* connect wallet css */
+
+.extrnl_wllet_title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  border-bottom: 3px solid #F8F8F8;
+  padding-bottom: 24px;
+}
+
+.extrnl_wllet_title h4 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #1E1F2D;
+  margin-bottom: 0px;
+
+}
+
+.inner_bdy_external_connct {
+  background: #FFFFFF;
+  border: 1px solid #EEF5F8;
+  box-shadow: 0px 4px 22px rgba(236, 236, 236, 0.3);
+  padding: 24px;
+  border-radius: 16px;
+  min-height: 386px;
+  display: none;
+}
+
+.wallet_nmes_list {
+  padding-top: 18px;
+}
+
+.main_list_wallet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #D4D8DD;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+img.cat_wallt {
+  margin-right: 17px;
+}
+
+.meta_msk span {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+
+
+}
+
+.cnnect_wallet_avc p {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 130%;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #3F434A;
+  margin-bottom: 0px;
+  cursor: pointer;
+
+
+}
+
+.mamage_media_body_content_meta_msk {
+  background: #f9f9f9;
+  padding: 25px 20px;
+  border-radius: 8px;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 100%;
+
+}
+
+.title_meta_msk {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #D4D8DD;
+  width: 100%;
+}
+
+.title_meta_msk h4 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #000000;
+
+
+}
+
+.inner_meta_msk_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  flex-direction: column;
+}
+
+
+
+
+
+.link_chain {
+  background: #e4a67b59;
+  border-radius: 50%;
+  width: 88px;
+  height: 88px;
+margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.below_descriptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+
+}
+
+
+.below_descriptions p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3F434A;
+  width: 61%;
+  text-align: center;
+}
+.trms_btn_enble{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign_mess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.sign_mess button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: #7521E2;
+  border-radius: 60px;
+  max-width: 180px;
+  width: 100%;
+  height: 40px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: white;
+  padding: 8px 30px;
+}
+
+.notify_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3F434A;
+  border-radius: 2px 2px 0px 0px;
+  padding: -1px;
+  height: 31px;
+  padding: 0px 15px;
+}
+
+.notifications_title {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.notifications_title span {
+
+  display: flex;
+
+}
+
+.notify_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.notify_title h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8A9099;
+  margin-bottom: 0px;
+}
+
+.signature_reg_popup {
+
+  max-width: 430px;
+  width: 100%;
+  filter: drop-shadow(-4px 8px 24px rgba(44, 63, 88, 0.02));
+  border: 1px solid;
+  min-height: 670px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+.inner_header {
+  background: #f9ddc5;
+  /* opacity: 0.3; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.sign_reg h4 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3F434A;
+
+}
+
+.main_title_metamsk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_title_metamsk h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.main_title_metamsk p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #3F434A;
+}
+
+.inner_bdy_sign_req {
+  padding: 24px;
+  background-color: white;
+}
+
+.check_select_all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+}
+
+
+span.chk_all {
+
+  margin-left: 12px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #3F434A;
+
+}
+
+.new_account_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new_account_title h6 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0867B7;
+  margin-bottom: 0px;
+}
+
+
+.ezl_bdy {
+  margin-top: 14px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #7521E2;
+  border-radius: 8px;
+  min-height: 197px;
+  padding: 30px 20px;
+}
+
+.ezl_eth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #7521E2;
+  padding-bottom: 9px;
+}
+
+.my-image-eth-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.my-eth-item-description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.my-eth-item-description h5 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  margin-bottom: 0px;
+
+
+}
+
+.my-eth-item-description p {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 170.23%;
+  color: #AAAAAA;
+  margin-bottom: 0px;
+
+
+}
+
+.selected-items-eth-eth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.chk_eth input {
+
+  width: 16px;
+  height: 16px;
+
+}
+
+
+.ezl_eth2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+
+}
+
+.your_signing h5 {
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #0867B7;
+
+}
+
+
+.web_link span {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #2F80ED;
+
+}
+
+.linking_sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.ezl_lgo {
+
+  margin-right: 4px;
+
+}
+
+.mess_title {
+
+  padding-top: 25px;
+  border-bottom: 1px solid #D4D8DD;
+  padding-bottom: 13px;
+
+}
+
+.mess_title h3 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+
+}
+
+.mess_title p {
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  word-break: break-all;
+  color: #4F4F4F;
+
+}
+
+.trust_notice {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+
+}
+
+.trust_notice p {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+
+}
+
+.lrn_txt {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2F80ED;
+
+}
+
+.sign_btns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 12px;
+}
+
+button.cncle_btn {
+  border: 2px solid #b9b6b6;
+  width: 148px;
+  height: 40px;
+  margin-right: 12px;
+  outline: none;
+  background: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #595F69;
+}
+
+.slct_all input {
+
+  width: 16px;
+  height: 16px;
+
+}
+
+button.sgn {
+  border: none;
+  width: 148px;
+  height: 40px;
+  margin-right: 12px;
+  outline: none;
+  background: #0867B7;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+
+
+
+
+
+/* Ayaan toggle Css new */
+
+.auto_toggle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.auto_payment_avex {
+  border: 1px solid #B6B5FF;
+  border-radius: 4px;
+  padding: 13px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span.auto_txt {
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.multi_radio_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.multi_radio_btn input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+}
+
+span.rdio_txt {
+  margin-right: 16px;
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  color: #000000;
+
+}
+
+span.rdio_txt2 {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  color: #000000;
+
+}
+
+.switch-cntrol-payment {
+  position: relative;
+  display: inline-block;
+  width: 33px;
+  height: 16px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+
+.switch-cntrol-payment input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.slider-cntrol-payment {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #D8D8D8;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider-cntrol-payment:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: -14px;
+  bottom: -3px;
+  background-color: #959595;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.cntrol-switch-payment input:checked+.slider-cntrol-payment {
+  background: #E4CFFF;
+}
+
+
+
+.cntrol-switch-payment input:checked+.slider-cntrol-payment:before {
+  -webkit-transform: translateX(33px);
+  -ms-transform: translateX(33px);
+  transform: translateX(33px);
+  background: #8743DF;
+}
+
+
+.slider-cntrol-payment.round {
+  border-radius: 23px;
+}
+
+.slider-cntrol-payment.round:before {
+  border-radius: 50%;
+}
+
+.slider-cntrol-payment.round:active {
+  background-color: #7521E2;
+}
+
+.slider-cntrol-payment:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: -14px;
+  bottom: -3px;
+  background-color: #959595;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+
+/*************blocks cards  css**************/
+
+.section_innr_blocks {}
+
+.wallets_selections_crds ul li {
+  width: 47%;
+  height: 194px;
+  padding: 24px;
+  background: #FFFFFF;
+  border: 1px solid #CDD9E2;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.wallets_selections_crds ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.usdc_block_main {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usdc_icon {
+  background: white;
+  background: transparent;
+  box-shadow: 0px 4px 4px rgb(143 157 192 / 25%);
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+/* .pay_btm {
+
+padding-bottom: 50%;
+
+} */
+
+.uscd_txt h6 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #4B5861;
+  margin-bottom: 0px;
+
+
+}
+
+.uscd_txt span {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+
+  display: flex;
+  align-items: center;
+
+  color: #4B5861;
+
+
+
+}
+
+.innr_bdy_crds {
+  padding: 19px 0px;
+  position: relative;
+}
+
+.dollar_usdc h6 {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  color: #4B5861;
+
+}
+
+.dollar_usdc span {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #4B5861;
+
+}
+
+.dollar_usdc {
+  padding-top: 23px;
+}
+
+/* Selected Currrency side div css */
+
+.selected_crds_list {
+  max-width: 320px;
+  min-height: 284px;
+  border-radius: 16px;
+  border: 1px solid #2BBD54;
+  box-shadow: 0px 4px 22px rgb(227 237 240 / 30%);
+  padding: 25px;
+  margin-top: 24px;
+}
+
+.slect_currency_timr_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.slect_currency_timr_icon h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.icon_blue_dlr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.up_arrow_percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt_span_green {
+  margin-left: 12px;
+}
+
+
+.txt_span_green h6 {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #4F4F4F;
+  margin-bottom: 0px;
+
+
+}
+
+.txt_span_green span {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #0FB046;
+
+
+}
+
+.dollar_blue_decrp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.prcnt_icon_dllr {
+  margin-right: 10px;
+}
+
+.up_arrow_percentage span {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #4F4F4F;
+
+}
+
+.usdc_exchange_rtes h6 {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 17px;
+  color: #828282;
+  margin-bottom: 0px;
+
+
+}
+
+.usdc_exchange_rtes p {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #4F4F4F;
+
+
+}
+
+.currency_details_list_item {
+  padding: 14px 0px;
+}
+
+.currency_details_list_item ul li {
+
+  border-bottom: 1px solid #D4D8DD;
+  border-top: 1px solid #D4D8DD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.total_items_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.total_txt h5 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: right;
+  color: #8A9099;
+  margin-bottom: 0px;
+
+
+}
+
+.total_prce h5 {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 180%;
+  text-align: right;
+  color: #000000;
+  margin-bottom: 0px;
+
+
+}
+
+.signature_reg_popup_window_loader {
+  max-width: 430px;
+  width: 100%;
+  filter: drop-shadow(-4px 8px 24px rgba(44, 63, 88, 0.02));
+  border: 1px solid;
+  min-height: 670px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+.new_ench {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.win_loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 570px;
+}
+
+.signature_reg_popup_window_sucees {
+  max-width: 430px;
+  width: 100%;
+  filter: drop-shadow(-4px 8px 24px rgba(44, 63, 88, 0.02));
+  border: 1px solid;
+  min-height: 670px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+.win_loader_sucees {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 570px;
+  flex-direction: column;
+}
+
+span.cnnected_txt {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3F434A;
+  padding: 16px 0px;
+
+}
+
+.right_blue_sec {
+  /* max-width: 320px; */
+  width: 100%;
+  min-height: 210px;
+  background: linear-gradient(180deg, #5B47D5 4.76%, #4B32E2 100%);
+  box-shadow: 0px 4px 22px rgb(227 237 240 / 30%);
+  padding: 24px;
+  border-radius: 16px;
+  margin-top: 24px;
+}
+
+button.paynow_avex {
+  border: none;
+  outline: none;
+  width: 272px;
+  height: 48px;
+  background: #2BBD54;
+  border-radius: 34px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+  
+}
+
+button.discord_avex {
+  border: 1px solid #FFFFFF;
+  border-radius: 34px;
+  width: 270px;
+  height: 48px;
+  margin-top: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #FFFFFF;
+  outline: none;
+  background: transparent;
+}
+
+.descrp_trms_ave {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 16px;
+}
+
+.descrp_trms_ave p {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 130%;
+/* or 17px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+span#clr_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#dai_white {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+
+}
+#usdt_white {
+
+  display: none;
+ 
+}
+
+#usd_white {
+
+  display: none;
+ 
+}
+
+
+#usd_white4 {
+
+  display: none;
+}
+
+.usd_white {
+
+  display: none;
+}
+
+
+#usd_white2 {
+
+  display: none;
+}
+
+
+#usd_white3 {
+
+  display: none;
+}
+
+/* bgduhkwgds */
+
+.contain-check2 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.contain-check2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.contain-check2 input:checked~.checkmark {
+  background: white;
+}
+
+.checkboxes-pop2 {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.contain-check2 input:checked~.checkmark:after {
+  display: block;
+}
+.contain-check2 .checkmark:after {
+  left: 4.5px;
+  top: 2px;
+  width: 6px;
+  height: 11px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.contain-check2 .checkmark {
+  position: absolute;
+  top: -2px;
+  left: 5px;
+  height: 18px;
+  width: 18px;
+  background-color: white;
+  /* border: 1px solid #E8E9EB; */
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: white;
+}
+
+a.anchor_txt {
+  color: #B0DEFD;
+}
+/*****Ahtis Coins List Css*************/
+
+.coint_list_selection {
+  background: #FFFFFF;
+  border: 1px solid #EEF5F8;
+  box-shadow: 0px 4px 22px rgb(165 179 183 / 80%);
+  max-width: 312px;
+  width: 100%;
+  min-height: 400px;
+  border-radius: 16px;
+  padding: 30px;
+  position: absolute;
+  /* top: 0; */
+  right: 0;
+  bottom: 24%;
+  display: none;
+}
+
+.sol_coin {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 0px;
+}
+.dpsol span{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 170.23%;
+display: flex;
+align-items: center;
+color: #3F434A;
+cursor: pointer;
+}
+
+.all_coins ul li {
+
+  border-bottom: 1px solid #D4D8DD;
+
+}
+
+.dp_solo {
+
+  margin-right: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.dpsol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/****** Coins Seelection css End */
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+
+
+@media screen and (max-width: 992px) {
+  .avex_paywallet1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .avex_payment_sucessfully {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .avex_paywallet2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .avex_paywallet_right {
+    width: 100%;
+
+  }
+
+  .avex_processing_right {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 80px;
+
+  }
+
+  .cncle_vrify_txt {
+
+    flex-direction: column;
+  }
+
+  a.vrify_txt {
+    margin-top: 12px;
+  }
+
+  .send_psscde_btn {
+
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .mbl_verifications_avx {
+
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .dollar_usdc h6 {
+
+    font-size: 26px;
+
+  }
+
+  .wallets_selections_crds ul {
+
+    gap: 18px;
+  }
+
+  .dollar_usdc h6 {
+
+    font-size: 26px;
+
+  }
+
+  .column_wallet_external {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .column_wallet_external_right {
+    width: 100%;
+    display: block;
+    margin-bottom: 60px;
+  }
+  button.paynow_avex {
+    width: 100%;
+}
+button.discord_avex {
+  width: 100%;
+}
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+  .orange_box_inner {
+
+    flex-direction: column;
+  }
+
+  .cart_items {
+
+    justify-content: flex-start;
+
+
+  }
+
+  .on_click_blue {
+
+    max-width: 100%;
+
+
+  }
+
+  .selected_crds_list {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+  .filters__button {
+
+    font-size: 15px;
+
+  }
+
+
+  .external-avx-subs button {
+
+    padding: 12px 10px;
+    font-size: 14px;
+
+  }
+
+}
+
+@media screen and (max-width:480px) {
+  .extrnl_wllet_title h4 {
+
+    font-size: 13px;
+
+  }
+
+  /* ayaan media css */
+
+  .auto_payment_avex {
+
+    flex-direction: column;
+  }
+
+  .auto_toggle {
+
+    margin-bottom: 15px;
+  }
+
+  .payment_methrod_tab_inner_left {
+
+    padding: 12px;
+  }
+
+  .total_balance_card_overlay {
+
+    flex-direction: column;
+  }
+
+  .wallets_selections_crds ul li {
+    width: 100%;
+
+  }
+  .social_icons ul li {
+    margin: 3%;
+    width: 22%;
+}
+
+.ornge_box {
+  height: auto;
+}
+.sucs_below_title h4{
+	font-size:18px;
+}
+}
+
+
+
+/******Mesta MAsk DEtails Screen  csss ahtis*******/
+
+.details_msk {
+  border: 1px solid #FF6B00;
+  border-radius: 2px;
+  padding: 16px 24px;
+}
+
+.details_msk ul {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.inner_txt span {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 130%;
+  color: #8A9099;
+
+
+}
+
+.inner_txt h4 {
+
+  font-family: 'DIN 2014';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  margin-bottom: 0px;
+  color: #FF6B00;
+
+}
+
+.bdy_area_sec span {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.inner_bdy_msg_sec {
+  background: #F7F7F8;
+  border-radius: 8px;
+  margin-top: 32px;
+  padding: 16px 32px;
+}
+
+.connetd_wllet_msg_cde_details ul {
+
+  flex-wrap: wrap;
+
+}
+
+.pay_cde_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 27px;
+}
+
+.pay_cde_btn button {
+
+  max-width: 184px;
+  width: 100%;
+  height: 41px;
+  background: #7521E2;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+
+}
+
+.ylow_product_total_section {
+  margin-top: 24px;
+  background: #FFF9E7;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.connected_ids_txt h4 {
+
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+
+}
+
+.connect_wllet_acc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100.3%; */
+}
+
+.connetd_wllet_msg_cde_details {
+  width: 80%;
+  margin: auto;
+
+}
+
+
+li.avx_list_wallet {
+  padding-top: 32px;
+}
+
+.right_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #D6C28D;
+  padding-bottom: 13px;
+  padding-top: 13px;
+
+}
+
+span.amount_pay_totl {
+  width: 23.33%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right_title h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.right_title h6 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+
+.right_title h5 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 0px;
+
+}
+
+.right_title2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #D6C28D;
+  background: #F4E0A8;
+  padding: 9px 15px;
+}
+
+.right_title2 h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.right_title2 h5 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 0px;
+
+}
+
+.right_title3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 13px;
+}
+
+.right_title3 h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.right_title3 h5 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+
+/******Mesta MAsk DEtails Screen  csss End*******/

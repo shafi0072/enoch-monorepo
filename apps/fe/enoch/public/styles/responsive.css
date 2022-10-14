@@ -1,0 +1,647 @@
+.overflowY {
+  overflow-y: scroll;
+}
+
+.ml5 {
+  margin-left: -5px;
+}
+
+.smart-phone-auth-step {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #d4d8dd;
+  border-radius: 50%;
+  padding: 4px 17px 4px 16px;
+}
+
+.dapp-change-number {
+  max-width: 620px;
+}
+
+.dapp-change-number-nxt .sign-form-select {
+  border: 0px;
+}
+.dapp-change-number-nxtdapp-change-number-nxt .sign-form-input {
+  padding-bottom: 0px;
+}
+.dapp-change-number-nxt .sign-form-input .css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.dapp-change-number-nxt
+  .sign-form-select
+  .css-1gwzy9j-control
+  .css-tlfecz-indicatorContainer {
+  padding: 0;
+  margin-right: 5px;
+}
+
+.dapp-change-number-nxt
+  .sign-form-select
+  .css-1fn1azk-control
+  .css-1gtu0rj-indicatorContainer {
+  margin-right: 5px;
+}
+.dapp-change-number-nxt .sign-form-input .css-1gwzy9j-control {
+  background: #f8f8f8;
+  width: 85px;
+}
+.dapp-change-number-nxt .sign-form-select .css-319lph-ValueContainer {
+  height: 54px;
+  width: 85px;
+  position: relative;
+}
+
+.dapp-change-number-nxt .sign-form-select .css-6j8wv5-Input {
+  display: flex;
+  align-items: center;
+  height: 54px;
+  margin: 0;
+  width: 55px;
+}
+.dapp-change-number-nxt .sign-form-select .css-1fn1azk-control {
+  outline: none;
+  box-shadow: none;
+  background: #f8f8f8;
+  border: 0px;
+  width: 85px;
+}
+.dapp-change-number-nxt .sign-form-select .css-1gtu0rj-indicatorContainer {
+  padding: 0px;
+}
+.dapp-change-number-nxt .css-6qbd7c-placeholder {
+  width: 40px;
+  overflow: hidden;
+  padding: 0;
+}
+
+:root {
+  --deg: 5deg;
+  --base: #d4d8dd;
+  --second: #2bbd54;
+  --trackball: var(--second);
+  --range: 0%;
+  --bg: #10252f;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  position: relative;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]:before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 12px;
+  border-radius: 6px;
+  background: var(--second);
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: var(--base);
+  height: 12px;
+  border-radius: 6px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border: none;
+  -webkit-appearance: none;
+  background-color: #2bbd54;
+  margin-top: -6px;
+  z-index: 99;
+  position: relative;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.value {
+  position: absolute;
+  left: 0%;
+  top: -70px;
+  font-size: 14px;
+  color: var(--trackball);
+  -webkit-transition: 0.5s color ease;
+  transition: 0.5s color ease;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+  height: 58px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/zoom-bar-progress-tag.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1800px) {
+  .linkedin-img {
+    margin-left: 11%;
+  }
+  .confirm-email-form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .signin-head h2 {
+    font-size: 42px;
+  }
+  .sign-in-form,
+  .sign-up-form,
+  .dapp-signin-form {
+    padding-top: 140px;
+  }
+  .sign-up-form {
+    padding-top: 120px;
+  }
+  .signup-head2 h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .sign-up-form,
+  .sign-in-form,
+  .dapp-signin-form {
+    max-width: 514px;
+  }
+  .dapp-2f-auth-block {
+    padding: 32px 32px 32px 32px;
+  }
+  .dapp-2f-auth-block h3 {
+    font-size: 22px;
+  }
+  .dapp-2f-auth-block h3 span {
+    font-size: 14px;
+  }
+  .dapp-2f-auth-block-right {
+    max-width: 100px;
+  }
+  .signup-vis-google-btn a,
+  .signup-btn-grp .sign-up-button,
+  button.googleAuthButton {
+    font-size: 12px;
+    height: 48px;
+  }
+  .signup-form-bttm-xt {
+    font-size: 10px;
+  }
+  button.googleAuthButton span {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .sign-up-form {
+    padding-left: 0px;
+  }
+  .confirm-email-form {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  .sign-up-form,
+  .sign-in-form,
+  .dapp-signin-form {
+    max-width: 400px;
+  }
+  .top-corner,
+  .bottom-corner {
+    max-width: 183px;
+  }
+  .sign-up-bg-image {
+    padding: 119px 60px;
+  }
+  .sign-up-form,
+  .sign-in-form,
+  .dapp-signin-form {
+    padding-top: 100px;
+  }
+  .signin-head h2 {
+    font-size: 38px;
+  }
+  .dapp-2f-auth-block h3 {
+    font-size: 18px;
+  }
+  .dapp-2f-auth-block h3 span {
+    font-size: 13px;
+  }
+  .dapp-2f-auth-block h3 {
+    flex-wrap: wrap;
+  }
+  .dapp-2f-auth-block h3 span {
+    margin-left: 0px;
+  }
+  .dapp-request-otp p {
+    font-size: 24px;
+  }
+  .signup-vis-google-btn a,
+  .signup-btn-grp .sign-up-button {
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    width: 164px;
+  }
+  .google-seed-btn a,
+  .enoch-signin-blocks-lft input {
+    font-size: 11px;
+  }
+
+  .signup-btn-grp {
+    flex-direction: column;
+  }
+  .signup-vis-google-btn a,
+  .signup-btn-grp .sign-up-button,
+  button.googleAuthButton {
+    max-width: 100%;
+    width: 100% !important;
+    height: 48px;
+  }
+
+  .signup-btn-grp span {
+    padding: 15px 0;
+  }
+}
+@media (max-width: 991px) {
+  .onboarding-new-slide-pagi {
+    margin-top: 20px;
+  }
+  .modal-dialog-centered {
+    max-width: 98% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .dapp-2f-auth-block h3 span {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dapp-recovery-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup-vis-google-btn a,
+  .signup-btn-grp .sign-up-button {
+    width: 100%;
+    font-size: 14px;
+    justify-content: center;
+  }
+  .signup-btn-grp {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  button.googleAuthButton span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .sign-up-form,
+  .sign-in-form,
+  .dapp-signin-form {
+    margin-bottom: 30px;
+  }
+  .sign-up-form,
+  .sign-in-form,
+  .dapp-signin-form {
+    max-width: 638px;
+  }
+  .confirm-email-form {
+    height: auto;
+  }
+}
+@media (max-width: 767px) {
+  .sign-up-bg-image,
+  .sign-in-bg-image {
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+
+  .terms-txt {
+    margin: 0;
+  }
+  .sign-up-form {
+    padding-top: 60px;
+    padding-left: 0;
+  }
+  .signup-head h2,
+  .signin-head h2 {
+    font-size: 34px;
+    line-height: 48px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .dapp-header-logo {
+    margin-bottom: 32px;
+  }
+  .top-corner,
+  .bottom-corner {
+    max-width: 200px;
+  }
+  .sign-up-bg-image {
+    padding: 40px;
+  }
+  .linkedin-img {
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .linkedin-img img {
+    max-width: 80px;
+  }
+  .signup-head,
+  .signin-head {
+    text-align: center;
+  }
+  .sign-up-form,
+  .sign-in-form,
+  .dapp-signin-form {
+    padding-top: 40px;
+  }
+  .confirm-email-form {
+    padding-top: 100px;
+  }
+  .confirm-email-form {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .confirm-email-form {
+    padding-top: 40px;
+  }
+  .dapp-recovery-block {
+    padding: 20px;
+  }
+  .dApp-request-btn {
+    justify-content: center;
+  }
+  .form-input-label {
+    text-align: center;
+  }
+  .confirm-num-key ul {
+    justify-content: center;
+  }
+  .dapp-recovery-block-txt {
+    text-align: center;
+  }
+  .dapp-2f-auth-block h3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dapp-browser-md {
+    text-align: center;
+  }
+  .dapp-accessible-place-top {
+    flex-direction: column;
+    text-align: center;
+  }
+  .dapp-accessible-place-top p {
+    margin-top: 15px;
+  }
+  .browser-recovery-block {
+    padding: 20px;
+  }
+  .browser-recovery-block {
+    text-align: center;
+  }
+  .browser-num-key ul {
+    justify-content: center;
+  }
+  .change-number-blocks {
+    flex-direction: column;
+  }
+  .dApp-confirm-btn {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .dapp-request-otp,
+  .dapp-request-otp p,
+  .dapp-otp-sent-success {
+    text-align: center;
+    justify-content: center;
+  }
+  .signin-head .recovrd-pswrd-txt,
+  .W-230 {
+    max-width: 100%;
+  }
+  .sign-up-button,
+  .browser-next,
+  .dApp-confirm-btn {
+    width: 100%;
+  }
+  .signin-authenticator-enable-head h3,
+  .signin-authenticator-enable-head p {
+    text-align: center;
+  }
+  .dapp-2f-auth-block {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 580px) {
+  .verfication-key ul li input {
+    width: 36px;
+    height: 50px;
+    padding: 0;
+    font-size: 16px;
+  }
+  .modal-content-inner-body {
+    padding: 20px;
+  }
+  .modal-content-inner-body .signin-check {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .modal-content-inner-body .signcheckbox-container {
+    margin-bottom: 10px;
+  }
+  .modal-content-inner-body p {
+    font-size: 20px;
+    line-height: 140%;
+  }
+  .modal-content-inner-body h3 {
+    font-size: 28px;
+  }
+  .enoch-dapp-modal-block .modal-content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .mailbox-head h2 {
+    font-size: 32px;
+    line-height: 140%;
+  }
+  .mailbox-txt {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .dapp-verify-mail span {
+    width: 100px;
+  }
+  .verified-header-logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .verified-txt1 {
+    font-size: 28px;
+    line-height: 140%;
+  }
+  .verified-body h2 {
+    font-size: 40px;
+  }
+  .verified-body {
+    margin-bottom: 40px;
+    height: 700px !important;
+  }
+  .confirm-email-form .signin-head h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .signin-head p {
+    font-size: 18px;
+  }
+  .signin-head .recovrd-pswrd-txt {
+    font-size: 16px;
+  }
+  .signup-btn-grp .sign-up-button,
+  .signup-vis-google-btn a {
+    font-size: 14px;
+  }
+
+  .industry-modal-dialog {
+    /* max-width: 620px !important; */
+    width: 98% !important;
+    margin: auto !important;
+  }
+
+  .selectOthers-modal-content h3 {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dapp-recovery-phn {
+    font-size: 14px;
+    text-align: left;
+  }
+  .dapp-recovery-phn span {
+    max-width: 34px;
+  }
+  .browser-alert span {
+    margin-right: 8px;
+    width: 58px;
+  }
+  .dapp-backup-code ul li {
+    font-size: 16px;
+    line-height: 48px;
+  }
+  .dapp-backup-code h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .dapp-backup-code {
+    padding: 20px;
+  }
+  .dapp-accessible-bottom ul {
+    justify-content: center;
+  }
+  .dapp-accessible-bottom ul li {
+    text-align: center;
+  }
+  .dapp-accessible-bottom ul li a {
+    font-size: 18px;
+  }
+  .signin-authenticator-enable-options-block
+    input[type="radio"]:checked
+    + label,
+  .signin-authenticator-enable-options-block
+    input[type="radio"]:not(:checked)
+    + label {
+    font-size: 16px;
+  }
+  .signup-head h2,
+  .signin-head h2 {
+    font-size: 24px;
+    line-height: 36px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .signin-authenticator-enable-head h3 {
+    font-size: 20px;
+  }
+  .signin-authenticator-enable-options-block p {
+    font-size: 13px;
+  }
+  .signup-btn-grp {
+    flex-direction: column;
+  }
+  .signup-btn-grp span {
+    margin: 0 20px;
+  }
+  .signup-btn-grp .sign-up-button,
+  .signup-vis-google-btn {
+    max-width: 100%;
+  }
+  .signup-btn-grp .sign-up-button,
+  .signup-vis-google-btn a {
+    font-size: 16px;
+  }
+  .enoch-signin-blocks {
+    flex-direction: column;
+  }
+  .enoch-signin-blocks-lft {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 24px;
+  }
+  .enoch-signin-blocks-right {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .signup-head2 h2 {
+    font-size: 24px;
+  }
+}
+
+.onboarding-skip-btn {
+  padding-left: 40px;
+}
+
+.enochCarousel-item h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  color: #3f434a;
+  margin-bottom: 30px;
+}
+
+.rc-tooltip-inner {
+  background: #fff !important;
+  color: #000000 !important;
+  font-size: 16px;
+}
+.rc-tooltip-arrow {
+  display: none !important;
+}

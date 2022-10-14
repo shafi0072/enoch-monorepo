@@ -1,0 +1,59 @@
+.interestCard{
+    font-family: "Poppins";
+}
+
+.interestCardImg{
+    position: relative;
+}
+
+.interestCardImg > div{
+    width: 48px;
+    height: 48px;
+    background-color: red;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.interestCardImg > div > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.interestCardImg > span{
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    background-color: #FF6B00;
+    height: 16px;
+    width: 16px;
+    display: grid;
+    place-content: center;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.interestCardInfo > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.interestCardInfo > div{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    color: #8a9099;
+}
+
+@media (max-width: 768px) {
+
+    
+}

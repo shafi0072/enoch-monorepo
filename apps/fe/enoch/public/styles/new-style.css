@@ -1,0 +1,312 @@
+.Terms-and-Conditions-left{
+    padding: 178px 129px 137px 191px;
+}
+.Terms-and-Conditions-text{
+    max-width: 584px;
+    margin-top: 23px;
+}
+.Terms-and-Conditions-text p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #333333;
+    padding: 7px 0px;
+}
+.Terms-and-Conditions-captcha{
+    background: #f2f2f2;
+    background-repeat: no-repeat;
+    max-width: 336px;
+    height: 80px;
+    margin-top: 30px;
+}
+.Terms-and-Conditions-captcha .captcha-content{
+    margin-left: 15px;
+    display: flex;
+    padding-top: 28px;
+    
+}
+.Terms-and-Conditions-captcha .captcha-content input{
+    height: 25px;
+    width: 25px;
+}
+.Terms-and-Conditions-captcha .captcha-content lable{
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+.captcha-right-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.captcha-right-content .captcha-logo{
+    margin-top: 10px;
+}
+.captcha-logo-text{}
+.captcha-logo-text h5{
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-family: unset;
+    color: gray;
+    line-height: 5px;
+    padding-top: 8px;
+}
+.captcha-logo-text h6 {
+    font-size: 9px;
+    text-align: center;
+    font-weight: 700;
+    font-family: unset;
+    color: gray;
+    line-height: 5px;
+    padding-top: 0px;
+}
+.GEPR-YES-AGREE-checkbox .GEPR-YES-AGREE-chackbox-content input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px dashed #C6C9CC;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.GEPR-YES-AGREE-checkbox .GEPR-YES-AGREE-chackbox-content 
+input[type="checkbox"]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 10px;
+    color: white;
+    display: none;
+}
+.GEPR-YES-AGREE-checkbox .GEPR-YES-AGREE-chackbox-content  input[type="checkbox"]:hover{
+    background-color: #FF7511;
+    border: none;
+}
+.GEPR-YES-AGREE-checkbox .GEPR-YES-AGREE-chackbox-content input[type="checkbox"]:checked{
+    background-color: #FF8A00;
+    border: none;
+}
+.GEPR-YES-AGREE-checkbox .GEPR-YES-AGREE-chackbox-content input[type="checkbox"]:checked:after{
+    display: block;
+}
+.GEPR-YES-AGREE-checkbox .GEPR-YES-AGREE-chackbox-content lable{
+    padding-left: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #8A9099;
+}
+.GEPR-YES-AGREE-checkbox .GEPR-YES-AGREE-chackbox-content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.GEPR-YES-AGREE-checkbox{
+    display: flex;
+    justify-content: space-between;
+    max-width: 130px;
+    margin-bottom: 32px;
+    margin-left: 17px;
+}
+.GEPR-YES-AGREE-checkbox .chackbox-content-2{
+    margin-left: 25px;
+}
+.GEPR-YES-AGREE-checkbox .GEPR-YES-AGREE-chackbox-content:focus-within lable{
+    color: #3F434A;
+}
+.trams-and-condition-check {
+    margin-bottom: 30px;
+    width: 688px;
+}
+.captcha-logo img{
+    width: 35px;
+}
+.GDPR-button {
+    width: 242px;
+    height: 53px;
+    background: #FF8A00;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-bottom: 3px solid;
+    border-bottom-color: rgba(0,0,0,.2);
+    border-top: 3px solid transparent;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-left: 0;
+    cursor: pointer;
+    padding: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/*====@media Screen====*/
+
+@media(max-width: 1700px){
+    .trams-and-condition-check {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px){
+    
+    .Terms-and-Conditions-text p{
+        padding: 0px;
+    }
+    
+    
+}
+
+@media (min-width: 1360px) and (max-width: 1439px){
+    .Terms-and-Conditions-text {
+        margin-top: 5px;
+    }
+    .Terms-and-Conditions-text p{
+        padding: 0px;
+        font-size: 13px;
+        line-height: 23px;
+    }
+    
+    
+    
+}
+
+@media (min-width: 1280px) and (max-width: 1359px){
+    .Terms-and-Conditions-text {
+        margin-top: 5px;
+    }
+    .Terms-and-Conditions-text p{
+        padding: 0px;
+        font-size: 13px;
+        line-height: 23px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px){
+    .Terms-and-Conditions-text {
+        margin-top: 0px;
+    }
+    .Terms-and-Conditions-text p{
+        padding: 0px;
+        font-size: 10px;
+        line-height: 17px;
+    }
+    
+    
+    
+}
+
+@media (min-width: 812px) and (max-width: 991px){
+    
+}
+
+@media (min-width: 768px) and (max-width: 811px){
+    
+}
+
+@media(max-width: 767px){
+    .Terms-and-Conditions-captcha {
+        background: #f2f2f2;
+        background-repeat: no-repeat;
+        max-width: 250px;
+        height: auto;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .Terms-and-Conditions-captcha .captcha-content {
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        padding-top: 28px;
+    }
+    
+}
+
+@media (min-width: 736px) and (max-width: 767px){
+    
+}
+
+@media (min-width: 667px) and (max-width: 735px){
+    
+}
+
+@media(max-width: 666px){
+    
+}
+
+@media (min-width: 540px) and (max-width: 666px){
+    
+}
+
+@media(max-width: 539px){
+    
+}
+
+@media (min-width: 411px) and (max-width: 539px){
+    .Terms-and-Conditions-text p {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 0px 0px;
+    }
+    
+    
+}
+
+@media (min-width: 375px) and (max-width: 410px){ 
+    .Terms-and-Conditions-text p {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 0px 0px;
+    }
+    
+}
+
+@media (min-width: 360px) and (max-width: 374px){
+    .Terms-and-Conditions-text p {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 0px 0px;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 359px){
+    .Terms-and-Conditions-text p {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 0px 0px;
+    }
+    
+}
+
+@media (min-width: 100px) and (max-width: 319px){
+    .Terms-and-Conditions-text p {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 0px 0px;
+    }
+    
+}
+

@@ -1,0 +1,54 @@
+.profileStatsContainer{
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.profileStatsHeader{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    border-bottom: 1px solid #d4d8dd;
+    padding-bottom: 16px;
+}
+
+.profileStatsHeader > h1{
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.profileStatsHeader > h2{
+    font-size: 14px;
+    font-family: Poppins;
+    margin-bottom: 0;
+    font-style: italic;
+    color: #8a9099;
+}
+
+
+/* stats inof */
+
+.statInfoContainer > h1{
+    margin-bottom: 0;
+    color: #2bbd54;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.statInfoContainer > p{
+    margin-bottom: 0;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    color: #3F434A;
+}
+
+
+@media only screen and (max-width: 768px){
+    .statInfoContainer > p{
+        font-size: 12px;
+    }
+}

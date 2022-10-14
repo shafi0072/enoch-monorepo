@@ -1,0 +1,73 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type SignedUrl {
+  url: String
+}
+
+type Media {
+  _id: ID!
+  title: String
+  category: String
+  thumbnail: String
+  hashtags: [String!]
+  privacyStatus: MediaPrivacy
+  pricePerView: Float
+  video: String
+  userId: ID!
+}
+
+enum MediaPrivacy {
+  PUBLIC
+  PRIVATE
+}
+
+type MediaListDocument {
+  media: [Media!]
+  hasMoreMedia: Boolean
+  endCursor: String
+  startCursor: String
+  startId: String!
+  endId: String!
+}
+
+type Subscription {
+  _id: ID!
+  enableRewards: Boolean
+  enableBadges: [String!]
+  enableEmotes: [String!]
+  enableGifts: [String!]
+  price: Float
+  startDate: String
+  endDate: String
+  userId: ID!
+  mediaId: ID!
+}
+
+type Query {
+  getSignedUrl: SignedUrl!
+}
+
+type Mutation {
+  listMedia(nextCursor: String, limit: Float!): MediaListDocument!
+  addMedia(addMediaInput: AddMediaInput!): Media!
+  buySubscription(buySubscriptionInput: BuySubscriptionInput!): Subscription!
+  getSignedDownloadUrl(mediaId: String!): SignedUrl!
+}
+
+input AddMediaInput {
+  title: String!
+  category: String
+  thumbnail: String!
+  hashtags: [String!]
+  privacyStatus: MediaPrivacy
+  pricePerView: Float!
+  video: String!
+}
+
+input BuySubscriptionInput {
+  enableRewards: Boolean!
+  price: Float!
+  mediaId: ID
+}

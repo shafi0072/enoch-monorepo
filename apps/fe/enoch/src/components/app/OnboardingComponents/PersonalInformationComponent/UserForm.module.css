@@ -1,0 +1,62 @@
+.font{
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.h3{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.userFormInput{
+    padding: 0px;
+    margin: 0px !important;
+    background-color: #F2F7FC;
+    font-family: "Poppins";
+
+    outline: none;
+}
+
+
+.userFormInput > input{
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    flex-grow: 1;
+}
+
+.userFormInput > input::placeholder{
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+.userFormTextarea{
+    height: 150px;
+    padding: 0px;
+    margin: 0px !important;
+    background-color: #F2F7FC;
+    font-family: "Poppins";
+
+    outline: none;
+}
+
+.userFormInput > textarea::placeholder{
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+.userFormTextarea:focus-within{
+    outline: 2px solid #8CBDFD;
+}
+.userFormInput:focus-within{
+    outline: 2px solid #8CBDFD;
+}
+
+@media (max-width: 768px){
+    .userFormInput > input{
+        font-size: 14px;
+    }
+}

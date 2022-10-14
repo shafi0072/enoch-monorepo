@@ -1,0 +1,698 @@
+/* Ahti css */
+
+.postWrap {
+  box-shadow: -4px 8px 24px rgba(44, 63, 88, 0.2%);
+  border-bottom: none;
+  background: #ffffff;
+  padding: 24px;
+}
+.postWrap__likeWrap {
+  display: flex;
+  align-items: center;
+}
+
+.postWrap__heading {
+padding-left: 5px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+}
+.postWrap__heading span {
+  font-weight: 600;
+}
+.postWrap__like {
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #d4d8dd;
+}
+.postWrap__User {
+  margin-top: 15px;
+}
+.postWrap__user__likeWrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.postWrap__user__heading {
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+}
+.postWrap__user__description {
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+color: #8a9099;
+}
+.postWrap__date {
+  font-weight: normal;
+  font-size: 11px;
+  color: #8a9099;
+}
+.postWrap__dateWrap {
+  line-height: 1;
+}
+.postWrap__User__wrap {
+  padding-left: 8px;
+}
+/* .postWrap__img {
+  width: 24px;
+  height: 24px;
+} */
+.seemore {
+  color: #3f434a;
+}
+.postWrap__detail {
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 170.23%;
+color: #3f434a;
+}
+.postDetailNew__firstimg{
+  width: 100%;
+}
+.postDetail__breakingTag__img {
+  display: flex;
+  flex-direction: row;
+}
+.postDetail {
+  margin-top: 20px;
+  border: 1px solid #c6c9cc;
+  border-radius: 8px;
+  position: relative;
+}
+.postDetail__wrap {
+  padding: 27px 24px 0;
+}
+.postDetail .postWrap__user__likeWrap {
+  margin-bottom: 12px;
+}
+.postDetail__breaking {
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+padding-bottom: 10px;
+}
+.postDetail__breakingTag {
+  font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 170.23%;
+  padding-bottom: 10px;
+}
+.postDetail__breakingTag__link {
+  color: #7521e2;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 170.23%;
+  word-break: break-alls;
+}
+.postDetail__breakingTag__img img{
+width: 100%;
+}
+.postDetail__footer {
+  background: rgba(212, 216, 221, 0.6);
+  border-radius: 0px 0px 8px 8px;
+  padding: 14px 24px;
+}
+.postDetail__heading {
+  font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 170.23%;
+  color: #000;
+}
+.postDetail__subheading {
+  font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 170.23%;
+}
+.postUserDetail {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d4d8dd;
+  padding: 9px 0;
+  flex-wrap: wrap;
+}
+.postUserDetail__first {
+  padding-right: 15px;
+}
+.postUserDetail_img01 img {
+  padding-right: 5px;
+}
+.postUserDetail_value {
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 16px;
+color: #3F434A;
+}
+.postUserDetail__third {
+  padding-left: 15px;
+}
+.postUserDetail__fourth {
+  padding-left: 15px;
+}
+
+.posttagBlock {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+.postTag__carousel .owl-carousel {
+  padding-top: 12px;
+}
+.postTag__carousel .owl-carousel.owl-drag .owl-item{
+width: auto !important;
+}
+
+.postTag__carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 10px;
+  background-color: #fff !important;
+  width: 32px;
+}
+.postTag__carousel .owl-nav button.owl-prev span{
+font-size: 33px;
+}
+
+.postTag__carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 10px;
+  background-color: #fff !important;
+  width: 32px;
+  right: 0;
+}
+.postTag__carousel .owl-nav button.owl-next span{
+font-size: 33px;
+}
+
+.postTag__carousel .owl-carousel .owl-stage-outer{
+  padding-top: 12px;
+  overflow: unset;
+}
+.postUserFac {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+img.postUserFac_img {
+  margin-right: 8px;
+}
+.userblock{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 170.23%;
+color: #8A9099;
+display: flex;
+align-items: center;
+margin-right: 20px;
+}
+.addCommentWrap {
+  padding: 20px 0 25px;
+}
+.addCommentWrap .home-post-share-block{
+padding: 0
+}
+.addCommentWrap input.addComent {
+  font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 170.23%;
+  color: #3F434A;
+  border: 1px solid #C6C9CC;
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding: 12px 24px;
+  position: relative;
+  width: 100%;
+  
+}
+.addComentWrap{
+  position: relative;
+}
+.addComentIconWrap{
+  position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+}
+.img_upload{
+  margin-right: 8px;
+}
+.mostreleventDetailWrap {
+  display: flex;
+  margin-top: 20px;
+  align-items: flex-start;
+}
+.mostRelWrap {
+  padding-left: 12px;
+ 
+}
+.mostRelDetail{
+  background: #F8F8F8;
+  border-radius: 0px 8px 8px 8px;
+  padding: 16px;
+  height: 131px;
+}
+.mostRelDetail__likeWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.mostRelDetail__heading {
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+.mostsubheading{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  color: #8A9099;
+
+}
+.mostDescription{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #3F434A;
+margin-top: 7px;
+}
+.mostPipes {
+color:#C6C9CC;
+}
+a.mostRelevent__link {
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #000;
+}
+
+a.mostfooterlike{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #000000;
+}
+a.mostfooterreply {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+color: #474CD5;
+}
+img.mostarrowIcon {
+  padding-left: 5px;
+}
+.postTag__carousel{
+  overflow: hidden;
+}
+
+
+/* social page 2 */
+
+
+.postDetailNew{
+  margin-top: 15px;
+}
+.postWrap__userMainWrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.likeWrapNew{
+  justify-content: space-between;
+}
+span.postWrap__user__follow a{
+  font-weight: 600;
+  font-size: 14.2564px;
+  padding-left: 3px;
+  cursor: pointer;
+  line-height: 21px;
+  color: #7521E2;
+}
+
+/* social page 3 */
+
+.cryptoWrap{
+  margin-top: 20px;
+    padding: 20px 24px 10px;
+    border: 1px solid #8A9099;
+    border-radius: 4px;
+}
+.cryptoWrap__heading{
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+
+}
+.cryptoWrap__subheading{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 170.23%;
+color:#000;
+}
+.cryptoWrap__subheading a{
+	color:#000;
+}
+.cryptoButton {
+  border: 2px solid #7521E2;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #7521E2;
+  width: 100%;
+  padding: 7px 0;
+  line-height: 170.23%;
+  background-color: transparent;
+}
+.crypto__btn {
+  margin-top: 16px;
+}
+.cryptoVote{
+color:#8A9099;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+margin-top:20px;
+}
+
+/* .postWrap__img-revelent {
+
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+
+} */
+
+.postWrap_news_user_img {
+
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+
+.postDetail__crossImage{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+/* Crypto result css */
+.crypto__ProgValue {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 170.23%;
+  color: #3F434A;
+  width: max-content;
+  display: flex;
+}
+.crypto__Prog {
+  border: 1px solid #D4D8DD;
+  border-radius: 2px;
+  background: #F8F8F8;
+  padding: 10px;
+  flex-grow: 1;
+}
+.Crypto_popular{
+	max-width:37%;
+	width:100%;
+}
+.crypto__Prog.No {
+  width: 100%;
+  max-width: 26%;
+}
+.crypto__Prog.Yes {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.crypto__ProgValueTickImg {
+  margin-left: 10px;
+}
+.crypto__ProgValuePercentage {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 170.23%;
+  color: #000;
+  margin-left: 20px;
+}
+.crypto__ProgWraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;  
+
+}
+.cryptoVoteUndo {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.2564px;
+  line-height: 21px;
+  color: #7521E2;
+  margin-left: 10px;
+  cursor:pointer;
+}
+@media screen and (max-width: 720px) {
+  .dApp-status-like-comment-share-sect ul {
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .postDetail__heading {
+    font-size: 14px;
+  }
+  .google_drive{
+    padding: 28px 11px 29px !important;
+  }
+  .postDetail__crossImage{
+    right: 10px;
+    width: 20px;
+  }
+  span.postDetail__crossImage img {
+    width: 19px;
+}
+  .addCommentWrap input.addComent {
+    font-size: 12px;
+    padding: 12px 12px;
+  }
+  .addCommentWrap .home-post-share-block {
+    display: flex;
+    align-items: center;
+  }
+  .addComentIconWrap{
+    right: 8px;
+  }
+  .img_upload {
+    margin-right: 2px;
+}
+.home-post-share-lft{
+  margin-right: 5px;
+}
+.cryptoButton{
+  font-size: 14px;
+}
+
+.mostRelDetail{
+  height: auto;
+}
+}
+
+@media screen and (max-width: 670px) {
+  .postDetail__breakingTag__img img {
+    width: 100%;
+  }
+.postDetail__breakingTag__img {
+  flex-direction: column;
+}
+}
+@media screen and (max-width: 1200px) {
+
+  .dApp-status-like-comment-share-sect {
+padding: 0 !important;
+  }
+  .dApp-status-like-comment-share-sect ul li{
+    padding: 5px 2px !important;
+  }
+  }
+  @media screen and (max-width: 480px){
+	  .crypto__Prog.Yes{
+		  margin-right:10px
+	  }
+	  .crypto__ProgValuePercentage{
+		  margin-left:0px;
+		  font-size:12px;
+	  }
+	  .crypto__ProgValue{
+		  font-size:12px;
+	  }
+  }
+
+/* Google Drive page css  */
+
+.postDetail__google_drive {
+
+margin-top: 24px;
+padding-bottom: 16px;
+
+}
+
+.postDetail__breakingTag__link_gdrive {
+
+  color: #7521e2;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 170.23%;
+  word-break: break-all;
+
+}
+
+.gdrive {
+
+  padding-top: 20px;
+  border-top: 1px solid #D4D8DD;
+  justify-content: space-around;
+
+}
+
+.google_drive {
+
+  width: 100%;
+  height: 108px;
+  padding: 28px 24px 29px;
+
+}
+
+.mister_enoch {
+  height: 48px;
+  width: 48px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+} 
+
+
+.ilus_enoch {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.alex_anoch {
+
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* overflow: hidden; */
+  border-radius: 50%;
+
+}
+
+.cmt_anoch {
+
+  width: 56px;
+  height: 56px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+
+.Enoch_cash_community {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.Enoch_cash_community img {
+    border-radius: 50%;
+    max-height: 24px;
+    max-width: 24px;
+    width: 100%;
+}
+.Enoch_cash_community_icon {
+
+  overflow: hidden;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.progress_enocg {
+  border: 1px solid;
+  width: 402px;
+  height: 44px;
+  padding: 9px 10px 8px;
+}

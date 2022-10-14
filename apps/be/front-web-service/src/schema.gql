@@ -1,0 +1,83 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type ContactModel {
+  _id: ID!
+  category: String
+  name: String
+  email: String
+  type: String
+  connect_type: String
+  country: String
+  text: String
+  isAgreedTermsAndConditions: Boolean
+}
+
+type SubscriberModel {
+  _id: ID!
+  email: String
+  is_sent: String
+}
+
+type JtenochModel {
+  _id: ID!
+  email: String
+  is_sent: String
+}
+
+type SubscriberDocument {
+  Subscribers: [SubscriberModel!]
+  hasMoreComments: Boolean
+  endCursor: String
+  startCursor: String
+  startId: String!
+  endId: String!
+}
+
+type JtenochDocument {
+  Jtenochs: [JtenochModel!]
+  hasMoreComments: Boolean
+  endCursor: String
+  startCursor: String
+  startId: String!
+  endId: String!
+}
+
+type Query {
+  sayHello: String!
+  getSubscriberAll: SubscriberDocument!
+  getJtenochAll: JtenochDocument!
+}
+
+type Mutation {
+  addContact(conatct: CreateContactInput!): ContactModel!
+  addSubscriber(subscriber: CreateSubscriberInput!): SubscriberModel!
+  addJtenoch(jtenoch: CreateJtenochInput!): JtenochModel!
+}
+
+input CreateContactInput {
+  name: String!
+  email: String!
+  know_about_us: String
+  type: String
+  country: String!
+  text: String!
+  isAgreedTermsAndConditions: Boolean!
+  category: CategoryContact!
+}
+
+enum CategoryContact {
+  CREATORS
+  ARTISTS
+  INVESTORS
+  PARTNERS
+}
+
+input CreateSubscriberInput {
+  email: String!
+}
+
+input CreateJtenochInput {
+  email: String!
+}

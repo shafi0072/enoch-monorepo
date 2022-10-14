@@ -1,0 +1,300 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xFF820615C1AF4F3784E951780a8Be8D37a4d93fc",
+    "txHash": "0x70196300572426891b458d3fa2f51bc52bbbd563243e9cbd104d987c0cd6749d"
+  },
+  "proxies": [
+    {
+      "address": "0xC4d6234118871FB216A6B06Df5Fe1103586B8c47",
+      "txHash": "0x2eb909d3c9d4c36b1a80df4ea6c3927338109a9445cc8c7720f1f309e49b033d",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "066e8014f5f45ebde0d7bf0e16a0bd7fc239d933e8ad7f5f0986a40ed3637761": {
+      "address": "0xB6FCBFC5F5AAD8e1044BedE0482F352FaDDDcF14",
+      "txHash": "0xe2dde3d21dc59454012c6374a655a353b09efac3dccb913ceb38a64ab96a8ccf",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "node",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:15"
+          },
+          {
+            "label": "priceIndex",
+            "offset": 22,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:17"
+          },
+          {
+            "label": "prices",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_uint8,t_uint256)",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:22"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_uint8,t_uint256)": {
+            "label": "mapping(uint8 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "c79bd6dbd255c2bbb45ea241bf9288d3c7edf7407ecf60dc9d31c19f757e137e": {
+      "address": "0x017c7999473cb33917d54E2de2B458D0b7Ce353c",
+      "txHash": "0x5b8d771ec74af9fe2d088fd548eea0b0bff2155e4d072293c77f792aace950c5",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "node",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:15"
+          },
+          {
+            "label": "priceIndex",
+            "offset": 22,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:17"
+          },
+          {
+            "label": "prices",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_uint8,t_uint256)",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:22"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_uint8,t_uint256)": {
+            "label": "mapping(uint8 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "067e0c76273193f7896902f9b94993c7a2664b1de2553d0e3a3f2c4c9710ba37": {
+      "address": "0x9779F3f6efc5fB94bb6843f4b4c0ec7392b760f7",
+      "txHash": "0xf437dcee81b1e8d2f964196d9dfef33507c9e3bbd3af334aa37f408678a1fde3",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "node",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:15"
+          },
+          {
+            "label": "priceIndex",
+            "offset": 22,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:17"
+          },
+          {
+            "label": "prices",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_uint8,t_uint256)",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:22"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_uint8,t_uint256)": {
+            "label": "mapping(uint8 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "e7d78fd24d5b8f06a86ec37e56cf28ec608f8e1011d85dc4c1df725ac4a8b389": {
+      "address": "0xcCE7C8Ce224740C079114d0Abb713531979ce4c9",
+      "txHash": "0xe16073e69674becf5e347882a6149bfc355ab48b9272cdadf5db412ea88fd37f",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "node",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:16"
+          },
+          {
+            "label": "priceIndex",
+            "offset": 22,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:18"
+          },
+          {
+            "label": "prices",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_uint8,t_uint256)",
+            "contract": "Oracle",
+            "src": "contracts/Oracle.sol:23"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_uint8,t_uint256)": {
+            "label": "mapping(uint8 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}

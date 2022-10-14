@@ -1,0 +1,17 @@
+export const routes = {
+  home: "/",
+  login: "/auth/login",
+  requestSMSOTP: "/auth/request-sms-otp",
+  verifyYourEmail: "/auth/register/verify",
+  chooseAuthMethod: "/auth/choose-auth-method",
+  enterOTP: "/auth/enter-otp",
+  onboarding: "/onboarding",
+  selectIndustryOrInterest: `/onboarding/industry`,
+  addFollowersPage: `/onboarding/suggestion`,
+  communitiesPage: `/onboarding/suggestion/communities`,
+  newsLetterSuggestionPage: `/onboarding/suggestion/subscribe`,
+  chooseAvatarPage: `/onboarding/choose-avatar`,
+  personalInformation: `/onboarding/personal-information`,
+  onBoardingWelcome: `/onboarding/welcome`,
+  onBoardingAcceptTermsAndCondition: `/onboarding/termsofservice`,
+};

@@ -1,0 +1,75 @@
+
+.listnft__left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Poppins";
+    color: #3F434A;
+}
+
+
+.listnft__right{
+    flex: 1;
+}
+
+.listnft__right > .image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #426469;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.singleNft{
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    border: 2px solid #d4d8dd;
+    flex: 1;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.singleNft:hover{
+    color: #47A3BD;
+    border-color: #47A3BD;
+    background-color: #F4FBFD;
+}
+
+.label{
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.input{
+    height: 48px;
+    border: 2px solid #d4d8dd;
+    flex-grow: 1;
+    padding: 0 10px;
+    outline: none;
+}
+
+
+.imgDescp{
+    font-size: 14px;
+    font-family: "Poppins";
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    .singleNft{
+        height: 70px;
+        margin-bottom : 10px;
+    }
+
+    .listnft__right{
+        padding-top: 10px;
+    }
+}

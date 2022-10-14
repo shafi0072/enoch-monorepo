@@ -1,0 +1,68 @@
+
+.card__container {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+  .card__drag {
+    cursor: pointer;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d4d8dd;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .input__checkbox {
+    margin-right: 10px;
+  }
+  
+  .card__left {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 1.2;
+  }
+  
+  .card__img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .card__img > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .card__title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .card__descp {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .card__fixed,
+  .card__price {
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+  
+  .card__right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  

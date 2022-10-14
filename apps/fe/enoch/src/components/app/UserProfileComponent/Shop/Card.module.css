@@ -1,0 +1,52 @@
+.card{
+    border-radius: 30px;
+}
+
+.card__image{
+    background-color: #D7DCE1;
+}
+
+.card__price__box{
+    background-color: #FFEB56;
+    height: 65px;
+}
+
+.font11{
+    font-size: 11px;
+}
+
+.font12{
+    font-size: 12px;
+}
+
+.font24{
+    font-size: 24px;
+}
+
+.font14{
+    font-size: 14px;
+}
+
+.font15{
+    font-size: 15px;
+}
+
+.card_category{
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.btn__purple{
+    background-color: #7521E2;
+    color: #FFFFFF;
+}
+
+
+.cart__btn{
+
+    height: 46px;
+    background-color: #2BBD54;
+    max-width: 138px;
+    width: 100%;
+
+}

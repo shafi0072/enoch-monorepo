@@ -1,0 +1,89 @@
+{
+  "ERROR_MESSAGES": {
+    "MAIL_TEMPLATE_FAIL": "Mail handlebar template fail ",
+    "USER_NOT_FOUND_IN_DECODE_TOKEN": "Unable to get the user from decoded token.",
+    "UNABLE_TO_SEND_SIGNUP_MAIL": "Unable to send signup mail",
+    "UNABLE_TO_SEND_CHANGE_PHONE_NUMBER_MAIL": "Unable to send mail",
+    "INVALID_CREDENTIALS": "Invalid Credentials",
+    "INVALID_EMAIL": "Invalid Email",
+    "ERROR_WITH_EMAIL_ID": "Error in sending email to the given email Id",
+    "PASSWORD_CONFIRM_PASSWORD_MISMATCH": "Your Password And Confirm Password Dosen't matches",
+    "INVALID_PASSKEY": "Your have provided an invalid passkey.",
+    "INVALID_GENERATE_PASSKEY_SECRET": "Your secret for generating passkey is invalid",
+    "ALLOWED_USER_NOT_FOUND": "The user with this email address has not generated the passkey, Please ask admin to generate passkey for this email address.",
+    "VOLNAGE_ERROR_MESSAGE": "Message failed with error:",
+    "OTP_VERIFY_FAIL": "OTP not matched",
+    "CHECK_PHONE_NUMBER": "Phone Number not provided",
+    "USER_NOT_FOUND": "User not found",
+    "USER_ALREADY_EXISTS": "User with this email already exists",
+    "VERIFY_MOBILE_FIRST": "Please enable mobile phone verification first before you can do set up google 2FA  ",
+    "TOKEN_VERIFY_FAIL": "OTP not matched",
+    "NOT_A_ALLOWED_USER": "This user in not a allowed user for signing up.Please genenate passkey for your email and then try again ",
+    "TWO_FA_NOT_VERIFIED": "You have not verified for the two factor authorization",
+    "TWO_FA_NOT_ENABLED": "2 Factor authorization not enabled,please try another method",
+    "UNABLE_TO_GET_USER_FROM_DECODED_TOKEN": "Unable to get the user from decoded token.",
+    "PLEASE_SELECT_2FA_METHOD_TO_LOCAL_FIRST": "Please select the 2FA method to local first",
+    "ERROR_OCCURED_WHILE_SENDING_OTP": "Some error occured while sending otp",
+    "INVALID_PHONE_NUMBER": "Invalid phone number, retry!!!",
+    "PHONE_NUMBER_ALREADY_EXIST": "The phone number currently provided is the same as the existing phone number",
+    "UNABLE_TO_CHANGE_PHONE_NUMBER": "You can not change your phone number",
+    "ALREADY_VERIFIED": "You have already been verified",
+    "PHONE_NUMBER_ALREADY_IN_USE": "Phone number already occupied by another user,please try with different phone number",
+    "UNABLE_TO_CHANGE_PHONE_NUMBER_30_DAY": "You can not change your phone number",
+    "OLD_PASSWORD_CONFLICT": "This is your old password,please try with different password",
+    "PASSKEY_VISIBILITY": "Passkey is not accessible in production mode.",
+    "ALREADY_FOLLOWING": "You are already following this person",
+    "NOT_AGREED": "You are not agreed with terms and conditions",
+    "NOT_FOLLOWING": "You have already unfollowed this person."
+  },
+  "SUCCESS_MESSAGE": {
+    "OTP_SENT_SUCCESSFULLY": "OTP sent successfully",
+    "EMAIL_SENT_SUCCESS": "Email has been sent successfully.",
+    "EMAIL_VERIFIED_SUCCESS": "Email verified successfully",
+    "VOLNAGE_SUCCESS_MESSAGE": "Message sent successfully.",
+    "SUCCESS_MESSAGE": "Sent OTP successfully.",
+    "OTP_VERIFY_SUCCESS": "2-step verification with SMS/phone is activated",
+    "GOOGLE_2FA_SUCCESS": "Google two-factor auth is enabled successfully",
+    "YOUR_GOOGLE_AUTH_SECRETE": "These are your secrete",
+    "TOKEN_VERIFY_SUCCESS": "Two-factor Auth is verified successfully",
+    "TWO_FA_METHOD_SELECTED_SUCCESFULLY": "Two-factor auth method selected succesfully",
+    "ALREADY_SETUP": "You have already set-up ",
+    "OTP_VERIFIED_SUCCESFULLY": "OTP verified succesfully",
+    "SUCCESS_CHANGE_PHONE_NUMBER": "You have successfully updated your phone number",
+    "YOUR_PASSWORD_HAS_BEEN_RESET_SUCCESSFULLY": "Your password has been changed successfully",
+    "SUCCESFULLY_FOLLOWED": "You have succesfully followed this user",
+    "SUCCESSFULLY_UNFOLLOWED": "You have succesfully unfollowed this user"
+  },
+  "CONSTANT_VARIABLE": {
+    "VERITY_EMAIL_TEMPLATE": "verify-email-templatess",
+    "BRAND_NAME": "Enoch.app",
+    "ENCODE_TYPE": "base32",
+    "TEXT_CONTENT_HALF": "Please use the code:",
+    "TEXT_CONTENT_COMPLETE": "to verify your phone number for ENOCH.APP two-factor authentication. Valid for 5 minute.",
+    "ALLOWED_USER_NOT_FOUND": "We have no user with the provided email address",
+    "USER_NOT_FOUND": "User not found",
+    "SMARTPHONE_APP": "Google",
+    "SMS_PHONE_REQUEST": "SMS",
+    "PASSKEY": "Aut-",
+    "CONTACT_TEMPLATE": "email-send-contact",
+    "ADMIN_CONTACT_TEMPLATE": "admin-email-send-contact",
+    "CONTACT_SUBJECT": "Thanks for contacting on ENOCH APP",
+    "ADMIN_CONTACT_SUBJECT": "Contacted on enoch",
+    "ADMIN_CONTACT_EMAIL": "pankaj.mishra@elementzerolabs.com"
+  },
+
+  "URLS": {
+    "VERIFYIMAGE": "https://enochforrdical.s3.us-east-2.amazonaws.com/Email/verify-mail.png",
+    "LOGOIMAGE": "https://enochforrdical.s3.us-east-2.amazonaws.com/Email/logo-big.png",
+    "DEFAULT_AVATAR_URL": "https://enochforrdical.s3.us-east-2.amazonaws.com/EnochAvatar/apocalypse/userApocalypseavatar/Card1.png",
+    "ALLOWED_USER_NOT_FOUND": "We have no user with the provided email address",
+    "MAILERLITE": "https://api.mailerlite.com/api/v2/groups/id/subscribers/import"
+  },
+
+  "APIKEYS": {
+    "X_MAILERLITE_APIKEY": "jE2NjMzMjI0MTMuMDg1Nzg5LCJuYmYiOjE2NjMzMjI0MTMuMDg1NzkyLCJleHAiOjQ4MTg5OTYwMTMuMDgwNDA0LCJzdWIiOiIxNzg3MTkiLCJzY29wZXMiOltdfQ.IkUrE56R_-xiQdjgSZdqC_0BK8dWEva4nbbmi0tgm-bTApbvnY-3ea3bN7UaTB-3BY4U1TxDwoKQ5q9Y9ro3v9btavruUgFpzKCgVfd0A3sR7YbTDuKKuf63tQ-IWUF3oo74f2WdWO-cLJDEzzR01Y4S0viCXvVEqm-vzo98O2QViHUrF-gERpuUOgJ7Vcj1rUUmAD0lrexodl_aoHgD0xeLnckG4fmdzvan5GQN6KmNc-0yxg1ceU-eWaa9hmfe4NMZQYOF9Pl_LD55pjc_T73zZnIrxQydQh7WgqfMA0fpejR-a0gxeoF8pDPbfpcj5242vEPYLZjrVTRMOmpDehSrXJvUsbpSYNC9sJQswH34Lu2HSyI9jon1Q7Aibm71bSR4J5oWeCB9rEmmzRoLxHmaUOMcfaha5MtRBQ4hO-D1ZFro8AfptmBf5rBwiQU6L502M3hXXElfVc-2pRv7kTwRgifaFmm8wRLsiHiM9zGe4ew1TI78VZpiuOntbQBLlRpdheqlbxdsbLpb01uxyP4A0R6-HbGOJzrIQRMHKVY9UaHcgPXDt5rhD6YPYNACzQu7dGyFIgoWUzwho4u0y-7ViqwQPBu8q5QLH4atkwkexxHnun-h040wPc8EnGnDyJPrSHgjhaRgswt83iz_i123bvXgsNiVWvk5Qsr3zwM"
+  },
+  "SUBJECTS": {
+    "CONTACT": "Thanks for contacting to ENOCH"
+  }
+}

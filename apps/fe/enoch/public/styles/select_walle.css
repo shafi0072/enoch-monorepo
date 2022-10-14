@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.select_wallet_content {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(116, 113, 133, 0.12);
+    border-radius: 8px 0px 0px 8px;
+    padding: 0px 40px;
+    height: auto;
+    padding-bottom: 40px;
+    position: relative;
+}
+.select_wallet_headings{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #D4D8DD;
+}
+.select_wallet_headings h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.select_wallet_headings h2 span{
+    font-size: 21px;
+    color: #D4D8DD;
+    margin-left: 15px;
+}
+.select_wallet_headings button {
+    background: #7521E2;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 132px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.select_wallet_headings button.disable{
+    pointer-events: none;
+    background: #D4D8DD;
+}
+.select_wallet_body p {
+    padding-top: 27px;
+    margin-bottom: 34px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.wallet_seect_sect{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.wallet_circle{
+    width: 48%;
+    margin: auto;
+}
+.wallet_circle h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #1E1F2D;
+    margin-top: 41px;
+    margin-bottom: 0px;
+}
+.wallet_circle_img {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.wallet_content1{
+    display: none;
+}
+.wallet_inner_headings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    border-bottom: 1px solid #D4D8DD;
+}
+.wallet_inner_headings h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.wallet_inner_headings button {
+    border: 1px solid #3F434A;
+    border-radius: 60px;
+    outline: none;
+    background: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #3F434A;
+    height: 40px;
+    width: 132px;
+}
+.no_wallet_content{
+    text-align: center;
+    margin-top: 145px;
+}
+.no_wallet_content p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #1E1F2D;
+    margin-top: -80px;
+    margin-bottom: 66px;
+}
+.no_wallet_content h6 {
+    background: #2F3338;
+    border-radius: 6px;
+    padding: 18px 42px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 556px;
+    margin: auto;
+}
+.no_wallet_content h6 a{
+    text-decoration: underline;
+    font-weight: 600;
+    color: #ffffff;
+}
+.wallet_content2{
+    display: none;
+}
+
+/*-------------------------------------
+ Loader CSS
+---------------------------------------*/
+.wallet_loader{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+    background: #ffffff;
+    box-shadow: 0px 0px 14px rgba(116, 113, 133, 0.12);
+    border-radius: 8px 0px 0px 8px;
+    padding-top: 200px;
+}
+.wallet_loader p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #7521E2;
+}
+.wallet_loader .loader_first {
+    background: #ffffff;
+    position: relative;
+    width: 100%;
+    z-index: 99;
+}
+
+.wallet_loader .loader_first .circular-spinner {
+    width: 105px;
+    height: 105px;
+    border: none;
+    background: url(../images/wallet_loder.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    animation: pre_rotate 1.5s linear infinite;
+    margin: auto;
+    transform: translate(-50%, -50%);
+}
+@keyframes pre_rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+    0%{
+        display: block;
+    }
+    100%{
+        display: none;
+    }
+}
+
+.shop_avater_tab{
+    max-width: 594px;
+    margin: auto;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #D4D8DD;
+}
+.shop_avater_tab button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #3F434A;
+    background: none;
+    border: none;
+    padding-bottom: 15px;
+    width: 33%;
+}
+.shop_avater_tab button.active, .shop_avater_tab button:hover{
+    color: #7521E2;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #7521E2;
+}
+.enoch_citizen_content{}
+.enoch_citizen_content h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #8A9099;
+    margin-top: 25px;
+    margin-bottom: 66px;
+}
+
+.enoch_citizen_card{
+    text-align: center;
+    width: 100%;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.enoch_citizen_card span{}
+.enoch_citizen_card button {
+    background: transparent;
+    outline: none;
+    border: 2px solid #000000;
+    border-radius: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #3F434A;
+    height: 40px;
+    width: 132px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.enoch_citizen_card button.active{
+    background: #2BBD54;
+    border: none;
+    color: #ffffff;
+}
+.enoch_citizen_card h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin: 0px;
+}
+.enoch_citizen_card p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin: 0px;
+    padding-top: 12px;
+    max-width: 223px;
+    margin: auto;
+}
+.avater_custom_sect{
+    display: none;
+}
+
+.avater_custom_sect .list-NFT-sale-section{
+    background: #ffffff;
+}
+
+
+
+.list-NFT-sale-section{
+    display: none;
+}
+
+
+/*-----------------------
+Cart
+-----------------------*/
+.cart_modal_body_content{
+    background: #ffffff;
+    border-radius: 8px 0px 0px 8px;
+    min-height: 100vh;
+    height: auto;
+}
+.cart_modal_body_content3{
+    display: none;
+}
+.cart-information{
+    cursor: pointer;
+}
+.cart_modal_sect{
+    background: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    display: none;
+}
+.cart_modal_content{
+    max-width: 1106px;
+    width: 100%;
+    margin-left: auto;
+    background: #EDEDF3; 
+    height: 100vh;
+}
+
+
+.order_summery_sect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.order_summery_sect button{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0px;
+}
+
+.order_summery_sect button.order_summery_btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 170.23%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3F434A;
+}
+.order_summery_sect button.order_summery_btn span{
+    background: #F2E9FD;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.order_summery_sect button.removeall_btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 170.23%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #8A9099;
+}
+.cart_item_list_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0px;
+    border-bottom: 1px solid #D4D8DD;
+}
+.cart_item_list_card_left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cart_item_list_card_left .cart_item_img {
+    background: #D7DCE1;
+    border-radius: 8px;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+}
+.cart_item_text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.cart_item_text span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 170.23%;
+    color: #AAAAAA;
+}
+.cart_item_text h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 170.23%;
+    color: #3F434A;
+    margin-bottom: 0px;
+}
+.cart_item_text h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170.23%;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.cart_item_list_card_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 280px;
+    width: 100%;
+}
+.cart_item_list_card_right h6 {
+    font-family: 'DIN 2014';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.cart_item_list_card_right button{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0px;
+}
+
+.cart_items_price_list{
+    padding: 24px 0px;
+    border-bottom: 1px solid #D4D8DD;
+    margin-bottom: 24px;
+}
+.cart_items_price_list ul{}
+.cart_items_price_list ul li{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.cart_items_price_list ul li h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 170.23%;
+    margin-bottom: 0px;
+    color: #000000;
+}
+.cart_bottom_btns{
+    margin-bottom: 100px;
+}
+
+
+
+.payment_methrod_tab_btns{
+    max-width: 400px;
+    height: 63px;
+    background: #F7F6F9;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: auto;
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+.payment_methrod_tab_btns button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170.23%;
+    height: 48px;
+    width: 48%;
+    text-align: center;
+    color: #8E8E9B;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.payment_methrod_tab_btns button.active{
+    color: #7521E2;
+    font-weight: 600;
+}
+
+.payment_methrod_tab_inner_left {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EEF5F8;
+    box-shadow: 0px 4px 22px rgba(236, 236, 236, 0.3);
+    border-radius: 16px;
+    padding: 32px;
+}
+.total_balance_card {
+    background: linear-gradient(102.26deg, #FF9C06 5.43%, #D04021 31.53%, #8119A4 88.91%, #8809CE 95.48%);
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+}
+.total_balance_card_overlay {
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(78px);
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.total_balance_card_img{
+    background: #F5F8FF;
+    border-radius: 24px;
+    padding: 11px;
+    position: relative;
+    z-index: 1;
+}
+.total_balance_card_text{
+    margin-left: 26px;
+    position: relative;
+    z-index: 1;
+}
+.total_balance_card_text h2 {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 158%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.total_balance_card_text h3 {
+    font-family: 'DIN 2014';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.total_balance_card_text h4 {
+    font-family: 'DIN 2014';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+.total_balance_card_text h4 span{
+    transform: rotate(-90deg);
+    margin-left: 8.5px;
+}
+.total_balance_card_bg_shaps .shape_1{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    position: absolute;
+    background: #FFFFFF;
+    opacity: 0.1;
+    left: 37px;
+    top: 19px;
+    z-index: 0;
+}
+.total_balance_card_bg_shaps .shape_2{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    position: absolute;
+    background: #FFFFFF;
+    opacity: 0.1;
+    right: 24px;
+    bottom: 24px;
+    z-index: 0;
+}
+.total_balance_card_bg_shaps .shape_3{
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    background: #FFFFFF;
+    opacity: 0.1;
+    right: 24px;
+    z-index: 0;
+    bottom: 132px;
+}
+.transactions_text p {
+    font-family: 'DIN 2014';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #3F434A;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+
+
+.payment_methrod_tab_inner_right {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EEF5F8;
+    box-shadow: 0px 4px 22px rgba(236, 236, 236, 0.3);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+
+
+
+.coupon_use_text{
+    display: none;
+    width: 100%;
+    padding-left: 25px;
+}
+.coupon_use_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.coupon_use_text p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .wallet_circle h3 {
+        font-size: 18px;
+    }
+    .select_wallet_headings h2, .select_wallet_headings h2 span{
+        font-size: 21px;
+    }
+    .select_wallet_headings button{
+        width: 120px;
+    }
+    .shop_avater_tab button{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .select_wallet_headings h2{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 158%;
+    }
+    .select_wallet_headings h2 span{
+        margin-left: 0px;
+        line-height: 158%:
+    }
+}
+@media screen and (max-width: 540px){
+    .select_wallet_headings h2, .select_wallet_headings h2 span{
+        font-size: 18px;
+    }
+    .wallet_seect_sect{
+        flex-direction: column;
+    }
+    .wallet_circle{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .wallet_circle h3{
+        margin-top: 20px;
+    }
+    .select_wallet_headings button{
+        width: 75px;
+        height: 32px;
+        font-size: 13px;
+    }
+    .select_wallet_body p{
+        font-size: 16px;
+    }
+    .shop_avater_tab{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .shop_avater_tab button{
+        width: 100%;
+        text-align: left;
+    }
+}
+
+
+
+

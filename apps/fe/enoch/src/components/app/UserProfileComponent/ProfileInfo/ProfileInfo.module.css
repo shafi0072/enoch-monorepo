@@ -1,0 +1,236 @@
+.font{
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+.profileInfoContainer{
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+
+.profileInfoInfo{
+    padding: 24px;
+}
+
+.profileInfoImage{
+    width: 100%;
+    height: 240px;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+}
+
+.profileEditIcon{
+    position: absolute;
+    z-index: 1;
+    right: 5%;
+    bottom: -8%;
+}
+
+.profileInfoImage > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+.profileInfoChangeBackground{
+    position: absolute;
+    top: 17px;
+    right: 36px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.profileInfoChangeBackground > span{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #d4d8dd;
+    padding-left: 5px;
+}
+
+.profileInfoAvatar{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 25%;
+}
+
+.profileInfoAvatar > img{
+    height: 100%;
+    width: 100%;
+}
+
+.profileInfouserAvatar{
+    position: absolute;
+    top: 10%;
+    height: 42%; 
+    width: 100%;
+}
+
+.profileInfouserAvatar > img{
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    z-index: -1;
+}
+
+.profileInfoOverlay{
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 95%;
+    width: 95%;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 9;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    bottom: 0;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileInfoAvatar > h3{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 26%;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.profileInfoAvatar > p{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 8%;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Poppins";
+    color: #fff;
+}
+
+/* 
+.profileInfoHeader{
+    
+} */
+
+.profileInfoHeader > h1{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.profileInfoHeader > p{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3f434a;
+}
+
+
+.profileInfoBadges{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 20px 0;
+}
+
+
+.profileForm{
+    padding: 24px;
+}
+
+.profileFormHead > h3{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.profileFormInput{
+    height: auto !important;
+    padding: 11px;
+    margin: 0px !important;
+    background-color: #F2F7FC;
+    font-family: "Poppins";
+    outline: none;
+}
+
+.profileFormInput > input{
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    flex-grow: 1;
+}
+
+.profileFormInput > input::placeholder{
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+.profileFormInput > textarea::placeholder{
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+
+
+
+@media (max-width: 768px) {
+    .profileInfoImage{
+        height: 180px;
+    }
+
+    .profileInfoAvatar{
+
+        width: 30%;
+        left: 20%;
+    }
+
+    .profileInfoAvatar > h3{
+        bottom: 23%;
+        font-size: 14px;
+    }
+    
+    .profileInfoAvatar > p{
+        bottom: 5%;
+        font-size: 10px;
+    }
+
+    .profileInfoBadges{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .profileInfoChangeBackground{
+        right: 2%;
+    }
+
+    .profileInfoChangeBackground > span{
+        font-size: 12px;
+    }
+   
+}

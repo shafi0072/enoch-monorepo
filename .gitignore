@@ -1,0 +1,12 @@
+node_modules
+.turbo
+.env
+
+.yalc
+
+.env.local
+yalc-packages
+
+data
+docker-compose.local.yml
+run-local.sh

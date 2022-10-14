@@ -1,0 +1,331 @@
+{
+	"info": {
+		"_postman_id": "04cfe70b-f1f0-48f1-ad21-8f8340afdee9",
+		"name": "Carbon Price",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\"\t: \"test@carbon.ai\",\n    \"password\": \"test123\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3334/auth/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3334",
+					"path": [
+						"auth",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Price Median",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTQ4NjA2NDAsImV4cCI6MTY1NDk0NzA0MCwiYXVkIjoiYWNjZXNzX3Rva2VuIiwic3ViIjoiZDdiZDNkZDctODVjYy00NDQ0LWI2NGEtN2MyOTlkMjNjNjVhIn0.5KZTq-TP3qIlmhuLcC_s6yvgjZIZLtBU9_PdCpujsdM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3334/price/price-median?base=btc&hour=72",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3334",
+					"path": [
+						"price",
+						"price-median"
+					],
+					"query": [
+						{
+							"key": "base",
+							"value": "btc"
+						},
+						{
+							"key": "hour",
+							"value": "72"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gemini",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTQ4NjA2NDAsImV4cCI6MTY1NDk0NzA0MCwiYXVkIjoiYWNjZXNzX3Rva2VuIiwic3ViIjoiZDdiZDNkZDctODVjYy00NDQ0LWI2NGEtN2MyOTlkMjNjNjVhIn0.5KZTq-TP3qIlmhuLcC_s6yvgjZIZLtBU9_PdCpujsdM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3334/price/gemini?base=btc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3334",
+					"path": [
+						"price",
+						"gemini"
+					],
+					"query": [
+						{
+							"key": "base",
+							"value": "btc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kraken",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTQ4NjA2NDAsImV4cCI6MTY1NDk0NzA0MCwiYXVkIjoiYWNjZXNzX3Rva2VuIiwic3ViIjoiZDdiZDNkZDctODVjYy00NDQ0LWI2NGEtN2MyOTlkMjNjNjVhIn0.5KZTq-TP3qIlmhuLcC_s6yvgjZIZLtBU9_PdCpujsdM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3334/price/kraken?base=btc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3334",
+					"path": [
+						"price",
+						"kraken"
+					],
+					"query": [
+						{
+							"key": "base",
+							"value": "btc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cryptocompare",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTQ4NjA2NDAsImV4cCI6MTY1NDk0NzA0MCwiYXVkIjoiYWNjZXNzX3Rva2VuIiwic3ViIjoiZDdiZDNkZDctODVjYy00NDQ0LWI2NGEtN2MyOTlkMjNjNjVhIn0.5KZTq-TP3qIlmhuLcC_s6yvgjZIZLtBU9_PdCpujsdM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3334/price/cryptocomp?base=btc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3334",
+					"path": [
+						"price",
+						"cryptocomp"
+					],
+					"query": [
+						{
+							"key": "base",
+							"value": "btc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Coingecko",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTQ4NjA2NDAsImV4cCI6MTY1NDk0NzA0MCwiYXVkIjoiYWNjZXNzX3Rva2VuIiwic3ViIjoiZDdiZDNkZDctODVjYy00NDQ0LWI2NGEtN2MyOTlkMjNjNjVhIn0.5KZTq-TP3qIlmhuLcC_s6yvgjZIZLtBU9_PdCpujsdM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3334/price/coingecko?base=btc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3334",
+					"path": [
+						"price",
+						"coingecko"
+					],
+					"query": [
+						{
+							"key": "base",
+							"value": "btc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Coincap",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTQ4NjA2NDAsImV4cCI6MTY1NDk0NzA0MCwiYXVkIjoiYWNjZXNzX3Rva2VuIiwic3ViIjoiZDdiZDNkZDctODVjYy00NDQ0LWI2NGEtN2MyOTlkMjNjNjVhIn0.5KZTq-TP3qIlmhuLcC_s6yvgjZIZLtBU9_PdCpujsdM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3334/price/coincap?base=btc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3334",
+					"path": [
+						"price",
+						"coincap"
+					],
+					"query": [
+						{
+							"key": "base",
+							"value": "btc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Coinbase",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTQ4NjA2NDAsImV4cCI6MTY1NDk0NzA0MCwiYXVkIjoiYWNjZXNzX3Rva2VuIiwic3ViIjoiZDdiZDNkZDctODVjYy00NDQ0LWI2NGEtN2MyOTlkMjNjNjVhIn0.5KZTq-TP3qIlmhuLcC_s6yvgjZIZLtBU9_PdCpujsdM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3334/price/coinbase?base=btc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3334",
+					"path": [
+						"price",
+						"coinbase"
+					],
+					"query": [
+						{
+							"key": "base",
+							"value": "btc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Coinapi",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTQ4NjA2NDAsImV4cCI6MTY1NDk0NzA0MCwiYXVkIjoiYWNjZXNzX3Rva2VuIiwic3ViIjoiZDdiZDNkZDctODVjYy00NDQ0LWI2NGEtN2MyOTlkMjNjNjVhIn0.5KZTq-TP3qIlmhuLcC_s6yvgjZIZLtBU9_PdCpujsdM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3334/price/coinapi?base=btc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3334",
+					"path": [
+						"price",
+						"coinapi"
+					],
+					"query": [
+						{
+							"key": "base",
+							"value": "btc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Average Price",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTQ4NjA2NDAsImV4cCI6MTY1NDk0NzA0MCwiYXVkIjoiYWNjZXNzX3Rva2VuIiwic3ViIjoiZDdiZDNkZDctODVjYy00NDQ0LWI2NGEtN2MyOTlkMjNjNjVhIn0.5KZTq-TP3qIlmhuLcC_s6yvgjZIZLtBU9_PdCpujsdM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3334/price/average?base=btc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3334",
+					"path": [
+						"price",
+						"average"
+					],
+					"query": [
+						{
+							"key": "base",
+							"value": "btc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

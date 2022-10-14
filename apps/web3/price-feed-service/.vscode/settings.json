@@ -1,0 +1,5 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "solidity.compileUsingRemoteVersion": "v0.8.12+commit.e5eed63a",
+  "solidity.enableLocalNodeCompiler": false
+}

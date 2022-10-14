@@ -1,0 +1,85 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Banner {
+  _id: ID!
+  name: String!
+}
+
+type Coupon {
+  _id: ID!
+  name: String!
+  discount: Int!
+  amount: Int
+  expiryDate: String
+}
+
+type ShopItems {
+  bannerId: String!
+  nftId: ID!
+  shopId: ID!
+  isPinned: Boolean
+}
+
+type Shop {
+  _id: ID!
+  description: String
+  items: [ShopItems!]!
+  userId: ID!
+}
+
+type LikeNft {
+  userId: String!
+  nftId: ID!
+  isLiked: Boolean!
+}
+
+type Query {
+  banners: [Banner!]!
+  coupons: [Coupon!]!
+  shops(userId: String!): [Shop!]!
+}
+
+type Mutation {
+  createBanner(createBannerInput: CreateBannerDtoGql!): Banner!
+  createCoupon(createCouponInput: CreateCouponDtoGql!): Coupon!
+  createShop(createShopInput: CreateShopDtoGql!): Shop!
+  pinShopItem(pinItemInput: PinItemDtoGql!): ShopItems!
+  deleteItem(itemId: String!): String!
+  addItems(addItemInput: [AddItemDtoGql!]!): [ShopItems!]!
+  likeNft(likeNftInput: LikeNftDtoGql!): LikeNft!
+}
+
+input CreateBannerDtoGql {
+  name: String!
+}
+
+input CreateCouponDtoGql {
+  name: String!
+  discount: Float!
+  amount: Float
+  expiryDate: String
+}
+
+input CreateShopDtoGql {
+  description: String
+}
+
+input PinItemDtoGql {
+  itemId: ID!
+  isPinned: Boolean!
+}
+
+input AddItemDtoGql {
+  bannerId: ID!
+  shopId: ID!
+  nftId: ID!
+  isPinned: Boolean = false
+}
+
+input LikeNftDtoGql {
+  userId: String!
+  nftId: ID!
+  isLiked: Boolean!
+}

@@ -1,0 +1,26 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "This is a monorepo which have 2 microservices 1. microservice1: [nestjs](https://docs.nestjs.com) 2. microservice2: [nestjs](https://docs.nestjs.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/radicalstackteam/monorepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/radicalstackteam/monorepo/issues"
+  },
+  "homepage": "https://bitbucket.org/radicalstackteam/monorepo#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "@nestjs/testing": "^9.0.11",
+    "husky": "^8.0.1"
+  }
+}

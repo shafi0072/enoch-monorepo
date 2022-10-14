@@ -1,0 +1,614 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type AccessToken {
+  accessToken: String!
+}
+
+type CommunityModel {
+  _id: String!
+  communityName: String!
+  communityDescription: String!
+  followersCount: String!
+}
+
+type IndustryModel {
+  _id: String!
+  industryCategory: String!
+}
+
+type NewsChannelModel {
+  _id: String!
+  channelName: String!
+  channelDescription: String!
+}
+
+type UserExperience {
+  _id: ID!
+  jobTitle: String
+  employementType: String
+  company: String
+  location: String
+  isCurrentlyWorking: Boolean
+  startMonth: String
+  startYear: String
+  endMonth: String
+  endYear: String
+  industry: String
+  description: String
+}
+
+type User {
+  _id: String
+  firstName: String
+  lastName: String
+  email: String!
+
+  """Active screen of onboarding, null means Onboarding is completed"""
+  activeOnBoardingScreen: OnBoardingScreen
+  accountType: AccountType
+  userId: String
+  gender: Gender
+  hereFor: ReasonHereFor
+  relationshipStatus: RelationshipStatus
+  dateOfBirth: String
+  country: String
+  bio: String
+  website: String
+  hideDateOfBirth: Boolean
+  hideRelationshipStatus: Boolean
+  hideHereFor: Boolean
+  hideCountry: Boolean
+  isHandlerVerified: Boolean
+  isEmailVerified: Boolean
+  hideGender: Boolean
+  signUpType: SignUpType
+  accessToken: String
+  industryType: IndustryModel
+  interests: [IndustryModel!]
+  communities: [CommunityModel!]
+  newsChannels: [NewsChannelModel!]
+  followee: [User!]
+  avatar: String
+  username: String
+  avatarTitle: String
+  backgroundImage: String
+  isAgreedToOnboardingTerms: Boolean
+  selectedInterests: [String!]
+  cardType: AvatarCardType
+  isFollowing: Boolean
+  isOnboardingCompleted: Boolean
+  userJobExperience: [UserExperience!]
+}
+
+enum OnBoardingScreen {
+  OnBoarding
+  ChooseAccountType
+  FillPersonalInformation
+  ChooseIndustryType
+  ChooseInteresedThings
+  SelectUsersToFollow
+  SelectInterestedCommunities
+  SubscribeLatestChannels
+  ChooseAvatar
+  CreateProfile
+  AcceptTermsOfService
+  OnboardingCompleted
+  FeaturePopupScreen
+  WelcomeScreenAfterOnboarding
+  UpdateDetailsAfterOnBoardingCompletion
+}
+
+enum AccountType {
+  Individual
+  Business
+}
+
+enum Gender {
+  MALE
+  FEMALE
+  OTHERS
+}
+
+enum ReasonHereFor {
+  SELLING_DIGITAL_ARTS
+  MAKING_SOCIAL_CIRCLE
+  INVESTING_IN_MARKETPLACE
+  PREFER_NOT_TO_SAY
+}
+
+enum RelationshipStatus {
+  SINGLE
+  MARRIED
+  WIDOWED
+  DIVORCED
+  DOMESTIC
+  PREFER_NOT_TO_SAY
+}
+
+enum SignUpType {
+  GOOGLE
+  LOCAL
+}
+
+enum AvatarCardType {
+  SILVER
+  GOLD
+  DIAMOND
+}
+
+type setUpGoogle2FA {
+  getqrcode: String
+  tempSecret: String
+  message: String
+  local2FAResponse: String
+  methodSelectedtype: String
+}
+
+type RecoverPasswordResponse {
+  email: String!
+  _2FAEnabled: Boolean!
+  _2FAAuthenticationType: String!
+  accessToken: String!
+  phoneNumber: String
+  countryCode: String
+}
+
+type EmailVerificationResponse {
+  firstName: String
+  lastName: String
+  email: String
+  isEmailVerified: Boolean
+  message: String!
+  accessToken: String!
+}
+
+type PollProps {
+  optionA: String
+  optionB: String
+  optionC: String
+  optionD: String
+  optionACount: Int
+  optionBCount: Int
+  optionCCount: Int
+  optionDCount: Int
+  optionAPercent: Int
+  optionBPercent: Int
+  optionCPercent: Int
+  optionDPercent: Int
+  duration: String!
+  isExpired: Boolean!
+}
+
+type PostResource {
+  _id: ID
+  fieldname: String
+  originalname: String
+  encoding: String
+  mimetype: String
+  bucket: String
+  key: String
+  size: Float
+  acl: String
+  contentType: String
+  contentDisposition: String
+  contentEncoding: String
+  storageClass: String
+  serverSideEncryption: String
+  metadata: String
+  location: String
+}
+
+type Post {
+  _id: ID!
+  title: String
+  caption: String
+  likeCount: Float
+  dislikeCount: Float
+  shareCount: Float
+  commentCounts: Float
+  viewsCount: Float
+  sendCount: Float
+  user: User
+  mediaResources: [PostResource!]
+  pollProps: PollProps
+  type: String!
+  optionA: String
+  optionB: String
+  optionC: String
+  optionD: String
+  optionACount: Int
+  optionBCount: Int
+  optionCCount: Int
+  optionDCount: Int
+  optionAPercent: Int
+  optionBPercent: Int
+  optionCPercent: Int
+  optionDPercent: Int
+  duration: String
+  isExpired: Boolean
+  createdAt: String!
+}
+
+type Author {
+  id: Int!
+  firstName: String
+  lastName: String
+  posts: [Post!]!
+}
+
+type Avatar {
+  _id: String
+  avatarId: String!
+  avatarURL: String!
+}
+
+type ResourcesMetaDataMOdel {
+  _id: ID
+  fieldname: String
+  originalname: String
+  encoding: String
+  mimetype: String
+  bucket: String
+  key: String
+  size: Float
+  acl: String
+  contentType: String
+  contentDisposition: String
+  contentEncoding: String
+  ContentEncoding: String
+  storageClass: String
+  serverSideEncryption: String
+  metadata: String
+  location: String
+}
+
+type CommentModel {
+  _id: ID!
+  text: String
+  likeCount: Float
+  dislikeCount: Float
+  shareCount: Float
+  commentCounts: Float
+  viewsCount: Float
+  sendCount: Float
+  user: User
+  userData: User
+  post: ID!
+  parentComment: ID
+  mediaMetadData: ResourcesMetaDataMOdel
+  repliesCount: Float
+  createdAt: String!
+  isLiked: Boolean
+}
+
+type CommentDocument {
+  comments: [CommentModel!]
+  hasMoreComments: Boolean
+  endCursor: String
+  startCursor: String
+  startId: String!
+  endId: String!
+}
+
+type Community {
+  _id: String!
+  communityId: String!
+  communityName: String!
+  communityDescription: String!
+  followersCount: String!
+  isJoined: Boolean
+}
+
+type SuggestedCommunities {
+  communities: [Community!]
+  joinedCommunitesArray: [String!]!
+}
+
+type Industry {
+  _id: String!
+  industryCategory: String!
+  isVerified: Boolean
+  isSelected: Boolean
+}
+
+type SuggestedIndustries {
+  industries: [Industry!]
+  selectedIndustries: [String!]
+}
+
+type NewsChannel {
+  _id: String
+  channelId: String
+  channelName: String
+  channelDescription: String
+  isSubscribed: Boolean
+}
+
+type SuggestedNewsChannels {
+  newsChannels: [NewsChannel!]
+  subscribedChannels: [String!]
+}
+
+type PostsDocument {
+  posts: [Post!]
+  hasMorePosts: Boolean
+  endCursor: String
+  startCursor: String
+  startId: String!
+  endId: String!
+}
+
+type MentionResult {
+  _id: String!
+  firstName: String!
+  lastName: String!
+  username: String!
+  avatar: String!
+}
+
+type CountryCodes {
+  name: String!
+  dial_code: String!
+  code: String!
+}
+
+type Follower {
+  _id: String
+  followee: String
+  follower: String
+  message: String
+}
+
+type Query {
+  author(id: Int!): Author!
+  getUser(id: String!): User!
+  getUsers: [User!]!
+  getSuggestedUsers: [User!]!
+  meResolver(id: String!): String!
+  getAllCountriesWithCountryCode: [CountryCodes!]!
+  mentionSearch(mentionQuery: MentionQuery!): [MentionResult!]!
+  getPasskey(email: String!, secretToken: String!): String!
+  getAllCommunity: [Community!]!
+  getAllNewsChannel: [NewsChannel!]!
+  getSuggestedFollowee: [User!]!
+  getAllIndustries: [Industry!]!
+  getVerifiedIndustries: SuggestedIndustries!
+  getAllCommunities: [Community!]!
+  getSuggestedCommunities: SuggestedCommunities!
+  getAllNewsChannels: [NewsChannel!]!
+  getsuggestedNewsChannel: SuggestedNewsChannels!
+  getAllAvatars: [Avatar!]!
+  getPostbyID(id: String!): Post!
+  getUserTimeLine(nextCursor: String, limit: Float!): PostsDocument!
+  getUserNewsFeed(nextCursor: String, limit: Float!): PostsDocument!
+  getCommentsByid(postId: String!, nextCursor: String, limit: Float): CommentDocument!
+  getRepliesForComment(postId: String!, nextCursor: String, limit: Float, commentId: String!): CommentDocument!
+}
+
+input MentionQuery {
+  commentId: String
+  postId: String
+  query: String
+  maxResults: Float
+}
+
+type Mutation {
+  addInterests(id: String!, interest: [String!]!): User!
+  createUser(createUserData: CreateUserInput!): User!
+  updateUser(updateUserData: UpdateUserInput!): User!
+  deleteUser(id: String!): User!
+  addTofollowers(id: String!): Follower!
+  unfollowUser(id: String!): String!
+  addUserExperince(UserExperience: AddUserJobExperience!): User!
+  signUp(signupUserInput: CreateUserInput!, passkey: String!): User!
+  signIn(email: String, password: String!, passkey: String!): AccessToken!
+  googleSignin(googleToken: String!, passkey: String!): AccessToken!
+  forgotPassword(email: String!): String!
+  resetPassword(password: String!, confirmPassword: String!): AccessToken!
+  setNewPassword(password: String!, confirmPassword: String!, token: String!): String!
+  chooseMethodfor2FA(_2FAtype: String!): setUpGoogle2FA!
+  addPhoneNumberForVerification(countryCode: String!, phoneNumber: String!): String!
+  verifyUserOTP(OTP: String!): User!
+  verifyUserEmail(token: String!): EmailVerificationResponse!
+  requestOtpFor2FAVerification: String!
+  recoverPasswordWith2FA(recoverPasswordInput: RecoverPasswordInput!): RecoverPasswordResponse!
+  requestOtpforPasswordRecovery(token: String!): String!
+  verifyOtpForPasswordRecovery(token: String!, OTP: String!): AccessToken!
+  changePhoneNumberRequest: String!
+  verifyOtpForCP(OTP: String!): String!
+  changeMyPhoneNumber(countryCode: String!, phoneNumber: String!): String!
+  resendVerificationEmail: String!
+  resendOtpForSignIn: String!
+  isEmailVerified: EmailVerificationResponse!
+  validateUsername(username: String!): String!
+  generatePasskey(CreateAllowedUserData: CreateAllowedUserInput!): String!
+  setAccountType(accountType: String!): User!
+  addOnboardingDetails(onboardingInput: OnboardingInput!): User!
+  createIndustry(industry: CreateIndustryInput!): Industry!
+  createCommunity(community: CreateCommunityInput!): Community!
+  createNewsChannel(newsChannel: CreateNewsChannelInput!): NewsChannel!
+  createAvatar(avatar: CreateAvatarInput!): Avatar!
+  createPost(post: CreatePostInput!): Post!
+  addVote(selectedOption: String!, postId: String!): PollProps!
+  addReactionOnPost(postId: String!, reactionType: ReactionType!): String!
+  removeReactionOnPost(postId: String!): String!
+  addLikeOnComment(postId: String!, commnetId: String!): String!
+  addComment(postId: String!, comment: CreateCommentInput!): CommentModel!
+  deleteCommnet(id: String!, postId: String!): String!
+  unlikeComment(postId: String!, commnetId: String!): String!
+}
+
+input CreateUserInput {
+  email: String!
+  firstName: String!
+  lastName: String!
+  password: String!
+  repeatPassword: String!
+  phoneNumber: String!
+  countryCode: String!
+  isAgreedToTerms: Boolean!
+  subscribedToEnochMails: Boolean
+}
+
+input UpdateUserInput {
+  id: String!
+  userId: String!
+  firstName: String!
+  lastName: String!
+  email: String!
+}
+
+input AddUserJobExperience {
+  jobTitle: String!
+  employementType: String!
+  company: String!
+  location: String!
+  isCurrentlyWorking: Boolean!
+  startMonth: String!
+  startYear: String!
+  endMonth: String!
+  endYear: String!
+  industry: String!
+  description: String!
+}
+
+input RecoverPasswordInput {
+  email: String!
+}
+
+input CreateAllowedUserInput {
+  email: String!
+  secretToken: String!
+}
+
+input OnboardingInput {
+  firstName: String
+  lastName: String
+  accountType: AccountType
+  activeOnBoardingScreen: OnBoardingScreen!
+  dateOfBirth: String
+  hideDateOfBirth: Boolean
+  gender: Gender
+  hideGender: Boolean
+  country: String
+  hideCountry: Boolean
+  website: String
+  bio: String
+  relationshipStatus: RelationshipStatus
+  hideRelationshipStatus: Boolean
+  hereFor: ReasonHereFor
+  hideHereFor: Boolean
+  industryType: String
+  interests: [String!]
+  communities: [String!]
+  followee: [String!]
+  newsChannels: [String!]
+  avatar: String
+  username: String
+  avatarTitle: String
+  backgroundImage: String
+  isAgreedToOnboardingTerms: Boolean
+  cardType: AvatarCardType
+}
+
+input CreateIndustryInput {
+  industryCategory: String!
+  isVerified: Boolean = false
+}
+
+input CreateCommunityInput {
+  communityName: String!
+  communityDescription: String!
+}
+
+input CreateNewsChannelInput {
+  channelName: String!
+  channelDescription: String!
+}
+
+input CreateAvatarInput {
+  avatarURL: String!
+}
+
+input CreatePostInput {
+  title: String
+  caption: String
+  postingAs: String
+  type: PostType!
+  resourceId: String
+  whoCanSee: PostVisibility
+  optionA: String
+  optionB: String
+  optionC: String
+  optionD: String
+  duration: PollDuration
+  mediaResources: [ResourcesMetaData!]
+}
+
+enum PostType {
+  TEXT
+  IMAGE
+  VIDEO
+  AUDIO
+  EVENT
+  DOCUMENT
+  Poll
+  WHITE_ARTICLE
+  CELEBRATION
+}
+
+enum PostVisibility {
+  PUBLIC
+  CONNECTION_ONLY
+  GROUP_MEMBERS_ONLY
+}
+
+enum PollDuration {
+  ONE_DAY
+  THREE_DAYS
+  ONE_WEEK
+  TWO_WEEKS
+}
+
+input ResourcesMetaData {
+  _id: ID
+  fieldname: String
+  originalname: String
+  encoding: String
+  mimetype: String
+  bucket: String
+  key: String
+  size: Float
+  acl: String
+  contentType: String
+  contentDisposition: String
+  contentEncoding: String
+  storageClass: String
+  serverSideEncryption: String
+  metadata: String
+  location: String
+}
+
+enum ReactionType {
+  HEART
+  LIKE
+  DISLIKE
+  CARE
+  CLAP
+  IDEA
+  AMAZE
+}
+
+input CreateCommentInput {
+  text: String!
+  resourcesMetadData: ResourcesMetaData
+  parentId: ID
+  subParentID: ID
+  mentionedUsers: [String!]
+}
+
+type Subscription {
+  comment(postId: String!): CommentModel!
+}

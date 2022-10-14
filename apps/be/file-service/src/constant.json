@@ -1,0 +1,12 @@
+{
+  "ERROR_MESSAGES": {
+    "ERROR_FILE_UPLOAD": "Error In Uploading File",
+    "ERROR_INSERTING_TO_DB": "Unable to insert to mongodb"
+  },
+  "SUCCESS_MESSAGE": {
+    "EMAIL_SENT_SUCCESS": "Email has been sent successfully."
+  },
+  "CONSTANT_VARIABLE": {
+    "AWS_BUCKET": "enoch-dev"
+  }
+}

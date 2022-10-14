@@ -1,0 +1,18 @@
+{
+  "ERROR_MESSAGES": {
+    "OTP_VERIFY_FAIL": "OTP mismatched",
+    "CHECK_PHONE_NUMBER": "Phone Number was not provided",
+    "USER_NOT_FOUND": "User not found",
+    "OTP_VERIFY_FAILED":"OTP verification failed."
+  },
+  "SUCCESS_MESSAGE": {
+    "SENT_SUCCESSFULLY": "Message sent successfully.",
+    "SENT_OTP_SUCCESSFULLY": "OTP sent successfully.",
+    "OTP_VERIFY_SUCCESS": "OTP verified successfully.",
+    "SUCCESS":"SUCCESS"
+  },
+  "INFO_MESSAGE": {
+    "OTP_CODE_MESSAGE": "is your one time password (OTP) for phone verification for ENOCH.APP two-factor authentication. Valid for ",
+    "USER_NOT_FOUND": "User not found"
+  }
+}
